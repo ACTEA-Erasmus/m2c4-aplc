@@ -3,10 +3,10 @@
 * Excersise 01: Industrial networks
   * [Learning goals](Ex01/Subchapter01.md)
   * [Study materials](Ex01/Subchapter02.md)
-  * [ProfiNET](Ex01/Subchapter02.md)
-  * [Profibus](Ex01/Subchapter03.md)
-  * [Drives](Ex01/Subchapter04.md)
-  * [The crane project](Ex01/Subchapter05.md)
+  * [ProfiNET](Ex01/Subchapter03.md)
+  * [Profibus](Ex01/Subchapter04.md)
+  * [Drives](Ex01/Subchapter05.md)
+  * [The crane project](Ex01/Subchapter06.md)
 * Excersise 02: ANSI/ISA S88
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
