@@ -32,3 +32,5 @@
   * [TAG naming convention](Ad02/Subchapter01.md)
 * Addendum 03: Manuals
   * [HMI programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
+* Addendum 04 : GRAFCET
+  * [General](Ad04/Subchapter01.md)
