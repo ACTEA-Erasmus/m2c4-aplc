@@ -269,11 +269,10 @@ The GRAFCET gets programmed in the LAD or FBD programminglanguage in the functio
 
 | **Manufacturer** | **Parameter interface** |
 |---------------|-------------------------|
-| Beckhoff      |    ![Beckhoff LAD variables ](../Ad04/Images/BeckhoffVarLDR.jpg)                     |
 | Siemens       |     ![Siemens LAD variables ](../Ad04/Images/SiemensVarLAd.jpg)                    |
 
 Tabel 4118 : Parameter interface - GRAFCET programming in LAD/FBD  BOOL
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 The programmation gets split in **3 parts** which chronologically get programmed in different networks:
@@ -294,29 +293,26 @@ The **GRAFCET prgramming in LAD/FBD with BOOL** variables is build on the ideaol
 -   Input "iGestart" is always present which is the result of the combination start-stop circuit that tells teh GRAFCET its status
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (LAD) |  ![Beckhoff LAD variables ](../Ad04/Images/BeckhoffiInitLAD.jpg)                       |
 | Siemens (FBD)  |   ![Siemens LAD variables ](../Ad04/Images/SiemensiInitLAD.jpg)                      |
 
 Tabel 4119 : Initialisation - GRAFCET programmation in LAD/FBD with BOOL
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (LAD) |   ![Beckhoff LAD ](../Ad04/Images/BeckhoffLAD2.jpg)      ![Beckhoff LAD ](../Ad04/Images/BeckhoffLAD4.jpg)                       |
 | Siemens (FBD)  |    ![Siemens FBD  ](../Ad04/Images/SiemensFBD.jpg) ![Siemens LAD  ](../Ad04/Images/SiemensFBD2.jpg)                     |
 
 Tabel 4120 : Transition Conditions - GRAFCET programmation in LAD/FBD using BOOL
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (LAD) |     ![Beckhoff LAD ](../Ad04/Images/BeckhoffLAD5.jpg)              |
 | Siemens (FBD)  |        ![Siemens FBD  ](../Ad04/Images/SiemensFBD3.jpg)                 |
 
 Tabel 4121 : Actions - GRAFCET programmation in FBD using BOOL (Projectdetail in
-TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+TIA Portal V15 SP1, © 2020 Siemens)
 
 | **Advantages**                  | **Disadvantages**                                                                         |
 |--------------------------------|-------------------------------------------------------------------------------------|
@@ -334,11 +330,10 @@ The GRAFCET gets programmed in the LAD or FBD programminglanguage in the functio
 
 | **Manufacturer** | **Parameter interface** |
 |---------------|-------------------------|
-| Beckhoff      |   ![Beckhoff LAD ](../Ad04/Images/BeckhoffVARINT.jpg)                      |
 | Siemens       |    ![Siemens VAR ](../Ad04/Images/SiemensVarINT.jpg)                     |
 
 Tabel 4123 : Parameter interface - GRAFCET programmation in LAD/FBD using INT
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 The programmation gets split in **3 parts** which chronologically get programmed in different networks:
@@ -364,29 +359,26 @@ The **GRAFCET prgramming in LAD/FBD with BOOL** variables is build on the ideaol
 
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (FBD) |    ![Beckhoff INT ](../Ad04/Images/BeckhoffINT1.jpg)                     |
 | Siemens (LAD)  |     ![Siemens INT ](../Ad04/Images/SiemensINT1.jpg)                    |
 
 Tabel 4124 : Initialisation - GRAFCET programmation in LAD/FBD using INT
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (FBD) |    ![Beckhoff INT ](../Ad04/Images/BeckhoffINT4.jpg)    ![Beckhoff INT ](../Ad04/Images/BeckhoffINT2.jpg)                 |
 | Siemens (LAD)  |   ![Siemens INT ](../Ad04/Images/SiemensINT2.jpg)                      |
 
 Tabel 4125 : Transitionconditions - GRAFCET programmation in LAD/FBD using INT
-(Projectdetail in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020
+(Projectdetail in TIA Portal V15 SP1, © 2020
 Siemens)
 
 | **Manufacturer**  | **Programmation** |
 |----------------|-------------------------|
-| Beckhoff (FBD) |   ![Beckhoff INT ](../Ad04/Images/BeckhoffINT3.jpg)                      |
 | Siemens (LAD)  |   ![Siemens INT ](../Ad04/Images/SiemensINT3.jpg)                      |
 
 Tabel 4126 : Actions - GRAFCET programmation in LAD/FBD using INT (Projectdetail
-in TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+in TIA Portal V15 SP1, © 2020 Siemens)
 
 | **Advantages**                                                                  | **Disadvantages**                                                                 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -403,11 +395,10 @@ The GRAFCET gets programmed in the ST programminglanguage in the function block 
 
 | **Fabrikant** | **Parameter interface** |
 |---------------|-------------------------|
-| Beckhoff      |   ![Beckhoff ST ](../Ad04/Images/BeckhoffVARST.jpg)                      |
 | Siemens       |  ![Siemens ST ](../Ad04/Images/SiemensVARST.jpg)                       |
 
 Tabel 4128 : Parameter interface - GRAFCET programmation in ST (Projectdetail in
-TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+TIA Portal V15 SP1, © 2020 Siemens)
 
 The programmation gets split in **3 parts** which chronologically get programmed in different networks:
 -   Initialisation (network 1)
@@ -431,27 +422,23 @@ The **GRAFCET prgramming in ST** variables is build on the ideaoligy
 
 | **Manufacturer** | **Programmation** |
 |---------------|-------------------------|
-| Beckhoff      |    ![Beckhoff ST ](../Ad04/Images/BeckhoffST.jpg)                     |
 | Siemens       |    ![Siemens ST ](../Ad04/Images/SiemensST.jpg)                       |
 
 Tabel 4129 : Initialisation - GRAFCET programmatie in ST (Projectdetail in
-TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+TIA Portal V15 SP1, © 2020 Siemens)
 
 | **Manufacturer** | **Programmation** |
 |---------------|-------------------------|
-| Beckhoff      |   ![Beckhoff ST ](../Ad04/Images/BekchoffST2.jpg)                       |
 | Siemens       |     ![Siemens ST ](../Ad04/Images/SiemensST2.jpg)                      |
 
 Tabel 4130 : Overgangsvoorwaarden - GRAFCET programmatie in ST (Projectdetail in
-TwinCAT 3, © 2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+TIA Portal V15 SP1, © 2020 Siemens)
 
 | **Manufacturer** | **Programmation** |
 |---------------|-------------------------|
-| Beckhoff      |   ![Beckhoff ST ](../Ad04/Images/BekchoffST3.jpg)                         |
 | Siemens       |   ![Siemens ST ](../Ad04/Images/SiemensST3.jpg)                        |
 
-Tabel 4131 : Actions - GRAFCET programmation in ST (Projectdetail in TwinCAT 3, ©
-2020 Beckhoff & TIA Portal V15 SP1, © 2020 Siemens)
+Tabel 4131 : Actions - GRAFCET programmation in ST (Projectdetail in TIA Portal V15 SP1, © 2020 Siemens)
 
 | **Advantages**                                                                       | **Disadvantages**                                                                 |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
