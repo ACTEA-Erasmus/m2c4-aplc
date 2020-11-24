@@ -52,6 +52,7 @@ Notes on ISA/ANSI S88
 ### Structure
 The name of a PLC TAG is constructed as showed in the next table.
 | Prefix | Physical name | _ | Type name | Function | _ | Suffix |
+| :---:  | :---:     | :---: | :---:     | :---: | :---:|:---: |
 
 ### Prefix
 The prefix gives the function of the absolute address.
