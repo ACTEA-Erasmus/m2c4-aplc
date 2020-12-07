@@ -25,9 +25,9 @@ Depending on the needs can a cascadecontroller be equipped with multiple help co
 
 ### Ratio controller
 
-The ratio controller has just like a cascade controller a head controller and a help- or follow controller. The intention is to have multiple prcesunits in a constant ratio. The ratio controller gets used mostly for controlling 2 flow streams, between these 2 need to be a determined ratio.
+The ratio controller has just like a cascade controller a head controller and a help- or follow controller. The intention is to have multiple prcesunits in a constant ratio. The ratio controller gets used mostly for controlling 2 flow streams, between these 2 flow streams a determined ratio needs to be present.
 
-The simplest example of a ratio controller is for example the gas and airsupuply in a gas incinerator. The head controller controls the amount of gas, depending on the desired oven temperature. The help or follow controller gets controlled by the actual value of the head controller which then controls on his turn the amount of air.
+The simplest example of a ratio controller is for example the gas and airsupply in a gas incinerator. The head controller controls the amount of gas, depending on the desired oven temperature. The help or follow controller gets controlled by the actual value of the head controller which then controls the amount of air.
 
 
 ![Ratio Example](../Ad05/Images/Ratio.jpg)
@@ -42,7 +42,7 @@ A mix ratio controller is a ratio controller with a main controller and several 
 
 With the mixing ratio control it is possible to make a product from several basic components consists of mixing [X1, X2,… .Xn] into a final product with a constant mixing ratio.
 
-The main or control controller controls the joint composition [Xg] with which it controls all subordinate component controllers with its control output [Yf]. It percentage share of each component [X1, X2 ..Xn] with respect to thejoint mixing ratio [Xg] is entered with the ratio factor for.
+The main- or control-controller controls the joint composition [Xg] it controls all subordinate component controllers with its control output [Yf].The percentage share of each component [X1, X2 ..Xn] with respect to the joint mixing ratio [Xg] is entered with the ratio factor "for".
 
 ![MixRatio Example](../Ad05/Images/MixRatio.jpg)
 

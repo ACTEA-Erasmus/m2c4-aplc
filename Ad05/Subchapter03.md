@@ -15,16 +15,10 @@ one distinguishes:
 
 ### Compact PID controller
 
-The compact Siemens PID controller is limited compared to the continuous PID controller
-its possibilities. Most of the parameters can be set via
-associated pop-up menus and can therefore only be set using a
+The compact Siemens PID controller is limited compared to the continuous PID controller in its possibilities. Most of the parameters can be set via associated pop-up menus and can therefore only be set using a
 programming device (PC with TIA Portal).
 
-As an advantage it can be cited that configuring this controller is done by
-using these pop-up screens which is much easier. This way one can make a choice
-between the different quantities and different SI units and one can
-opt to operate via a normalized input (output) or a periphery
-entrance exit).
+As an advantage it can be quoted that configuring this controller is done by using these pop-up screens which is much easier. This way one can make a choice between the different quantities and different SI units and one can opt to operate via a normalized input (output) or a periphery (entrance exit).
 
 ![Siemens Example](../Ad05/Images/SiemensEx5.jpg)
 
@@ -34,11 +28,7 @@ correct measuring range using the screen *“Process value settings”*.
 ![Siemens Example](../Ad05/Images/SiemensEx6.jpg)
 
 
-The P, I and D action can be set via the screen *“PID Parameters”*. Notice
-that the different actions cannot be selected individually. One can only
-make a choice between a PID and a PI controller. Note that every action is separately correctable. For example, one can calculate the weight of the P action and the
-D-action can be individually adjusted to even turn off and one can
-assign a wait coefficient for the D action.
+The P, I and D action can be set via the screen *“PID Parameters”*. Notice that the different actions cannot be selected individually. One can only make a choice between a PID and a PI controller. Note that every action is separately correctable. For example, one can calculate the weight of the P action and the D-action can be individually adjusted to even turn off and one can assign a wait coefficient for the D action.
 
 ![Siemens Example](../Ad05/Images/SiemensEx7.jpg)
 
@@ -48,7 +38,7 @@ The output can be limited just like a continue controller. This can be done in t
 ![Siemens Example](../Ad05/Images/SiemensEx8.jpg)
 
 
-Because of the different parameters being adjustable by using pop-up screens will the PID building block be compacter than the continue Siemens PID controller.
+Because of the different parameters being adjustable by using pop-up screens, the PID building block will be compacter than the continue Siemens PID controller.
 
 ![Siemens Example](../Ad05/Images/SiemensEx9.jpg)
 
