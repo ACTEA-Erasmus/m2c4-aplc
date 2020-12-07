@@ -1,0 +1,873 @@
+<!DOCTYPE html><html><head>
+      <title>Subchapter01</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\Matti\.atom\packages\markdown-preview-enhanced\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="tag-naming-convention">TAG naming convention</h1>
+
+<h2 class="mume-header" id="general">General</h2>
+
+<p>The use of a naming convention is used to increase the readability of the software.<br>
+TAG and block names are constructed with capital and small letters where</p>
+<ul>
+<li>The name is assembled with one or more words</li>
+<li>Each word starts with a capital letter</li>
+<li>Words can be reduced by the use of abbreviations</li>
+</ul>
+<h2 class="mume-header" id="programming-blocks">Programming blocks</h2>
+
+<h3 class="mume-header" id="structure">Structure</h3>
+
+<p>The name of a programming block is constructed as showed in the next table.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Block type</th>
+<th style="text-align:left">_</th>
+<th style="text-align:left">S88 Type</th>
+<th style="text-align:left">Block description</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<p>It starts with the block type abbreviation, followed by an underscore and it finish with an S88 abbreviation and block description.<br>
+The S88 type abbreviation is not used with global data blocks (DBs)</p>
+<h3 class="mume-header" id="block-type-abbreviation">Block type abbreviation</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Block type</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">FC</td>
+<td style="text-align:left">Function</td>
+</tr>
+<tr>
+<td style="text-align:left">FB</td>
+<td style="text-align:left">Function block</td>
+</tr>
+<tr>
+<td style="text-align:left">OB</td>
+<td style="text-align:left">Program organization unit</td>
+</tr>
+<tr>
+<td style="text-align:left">DB</td>
+<td style="text-align:left">Data block</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="s88-abbreviation">S88 abbreviation</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">S88 abbreviation</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">CM</td>
+<td style="text-align:left">Control module</td>
+</tr>
+<tr>
+<td style="text-align:left">EM</td>
+<td style="text-align:left">Equipment module</td>
+</tr>
+<tr>
+<td style="text-align:left">PE</td>
+<td style="text-align:left">Procedure element</td>
+</tr>
+</tbody>
+</table>
+<p>Notes on ISA/ANSI S88</p>
+<ul>
+<li>A control module is a function block (FB) which processed signals from inputs or controls output signals.</li>
+<li>An equipment is a function (FC) which represent a collection of physical elements that have an physical relationship.</li>
+<li>A procedure element is function block (FB) that represents a strategy (GRAFCET, flowchart, PID controller, etc.).</li>
+</ul>
+<h3 class="mume-header" id="examples">Examples</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Example</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">DB_Alarms</td>
+<td style="text-align:left">Alarms &amp; events data block</td>
+</tr>
+<tr>
+<td style="text-align:left">DB_HMI1</td>
+<td style="text-align:left">Interface data block HMI1</td>
+</tr>
+<tr>
+<td style="text-align:left">FB_CM_AI_Sensor</td>
+<td style="text-align:left">Control module of a analog input module</td>
+</tr>
+<tr>
+<td style="text-align:left">FB_CM_DI_Sensor</td>
+<td style="text-align:left">Control module of a digital input module</td>
+</tr>
+<tr>
+<td style="text-align:left">FB_CM_ASM_1R1S</td>
+<td style="text-align:left">Control module of an asynchronous motor with 1 speed and 1 rotating direction</td>
+</tr>
+<tr>
+<td style="text-align:left">FB_PE_StartStop</td>
+<td style="text-align:left">Procedure element start-stop</td>
+</tr>
+<tr>
+<td style="text-align:left">FB_PE_LoadCrane</td>
+<td style="text-align:left">Procedure element to load a crane</td>
+</tr>
+<tr>
+<td style="text-align:left">FC_EMCC</td>
+<td style="text-align:left">Equipment module of the control cabinet</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="plc-tags">PLC TAGs</h2>
+
+<h3 class="mume-header" id="structure-1">Structure</h3>
+
+<p>The name of a PLC TAG is constructed as showed in the next table.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Prefix</th>
+<th style="text-align:center">Physical name</th>
+<th style="text-align:center">_</th>
+<th style="text-align:center">Type name</th>
+<th style="text-align:center">Function</th>
+<th style="text-align:center">_</th>
+<th style="text-align:center">Suffix</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<h3 class="mume-header" id="prefix">Prefix</h3>
+
+<p>The prefix gives the function of the absolute address.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Prefix</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">i</td>
+<td style="text-align:left">Input</td>
+</tr>
+<tr>
+<td style="text-align:left">o</td>
+<td style="text-align:left">Output</td>
+</tr>
+<tr>
+<td style="text-align:left">m</td>
+<td style="text-align:left">Memory flag</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="physical-names">Physical names</h3>
+
+<p>The physical name is an abbreviation that refers to the name of that part of the installation that combines multiple physical parts.<br>
+The use of an unique number after the abbreviation is allowed.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Prefix</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">BLT</td>
+<td style="text-align:left">Belt conveyor</td>
+</tr>
+<tr>
+<td style="text-align:left">CC</td>
+<td style="text-align:left">Control cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">CHN</td>
+<td style="text-align:left">Chain conveyor</td>
+</tr>
+<tr>
+<td style="text-align:left">CRN</td>
+<td style="text-align:left">Crane</td>
+</tr>
+<tr>
+<td style="text-align:left">DR</td>
+<td style="text-align:left">Door</td>
+</tr>
+<tr>
+<td style="text-align:left">FRK</td>
+<td style="text-align:left">Forks</td>
+</tr>
+<tr>
+<td style="text-align:left">GRP</td>
+<td style="text-align:left">Gripper</td>
+</tr>
+<tr>
+<td style="text-align:left">GATE</td>
+<td style="text-align:left">Gate</td>
+</tr>
+<tr>
+<td style="text-align:left">LFT</td>
+<td style="text-align:left">Lift</td>
+</tr>
+<tr>
+<td style="text-align:left">OP</td>
+<td style="text-align:left">Operator panel cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">PnP</td>
+<td style="text-align:left">Pick &amp; Place robot</td>
+</tr>
+<tr>
+<td style="text-align:left">PRT</td>
+<td style="text-align:left">Port</td>
+</tr>
+<tr>
+<td style="text-align:left">PSH</td>
+<td style="text-align:left">Pusher</td>
+</tr>
+<tr>
+<td style="text-align:left">ROL</td>
+<td style="text-align:left">Roll conveyor</td>
+</tr>
+<tr>
+<td style="text-align:left">RW</td>
+<td style="text-align:left">Rain water</td>
+</tr>
+<tr>
+<td style="text-align:left">SRT</td>
+<td style="text-align:left">Sorter</td>
+</tr>
+<tr>
+<td style="text-align:left">T</td>
+<td style="text-align:left">Tank</td>
+</tr>
+<tr>
+<td style="text-align:left">TR</td>
+<td style="text-align:left">Transfer (roll to chain)</td>
+</tr>
+<tr>
+<td style="text-align:left">TT</td>
+<td style="text-align:left">Turntable</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="type-name">Type name</h3>
+
+<p>The type name refers to the type of sensor (e.t. actuator) that is connected to the input (e.t. output).<br>
+Therefore it is always used by input &amp; output TAGs.<br>
+The use of the type name is only used by flags if there is a connection to a sensor (e.t. actuator).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Type name</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">BCD</td>
+<td style="text-align:left">BCD device</td>
+</tr>
+<tr>
+<td style="text-align:left">Btn</td>
+<td style="text-align:left">Button</td>
+</tr>
+<tr>
+<td style="text-align:left">Con</td>
+<td style="text-align:left">Contactor</td>
+</tr>
+<tr>
+<td style="text-align:left">Lmp</td>
+<td style="text-align:left">Lamp or LED</td>
+</tr>
+<tr>
+<td style="text-align:left">Mcb</td>
+<td style="text-align:left">Motor circuit breaker</td>
+</tr>
+<tr>
+<td style="text-align:left">Rel</td>
+<td style="text-align:left">Relay</td>
+</tr>
+<tr>
+<td style="text-align:left">Sel</td>
+<td style="text-align:left">Selector Switch</td>
+</tr>
+<tr>
+<td style="text-align:left">Sen</td>
+<td style="text-align:left">Sensor (General)</td>
+</tr>
+<tr>
+<td style="text-align:left">Vlv</td>
+<td style="text-align:left">Valve</td>
+</tr>
+<tr>
+<td style="text-align:left">Clk</td>
+<td style="text-align:left">Only in the case of clock memory bits/byte</td>
+</tr>
+<tr>
+<td style="text-align:left">Ne</td>
+<td style="text-align:left">Only in the case of a falling edge (negative) memory bits</td>
+</tr>
+<tr>
+<td style="text-align:left">Po</td>
+<td style="text-align:left">Only in the case of a rising edge (positive) memory bits</td>
+</tr>
+<tr>
+<td style="text-align:left">Sys</td>
+<td style="text-align:left">Only in the case of system memory bits/byte</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">No abbreviation with flags if there is no relation to a sensor or actuator</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="function">Function</h2>
+
+<p>The function gives information about the function of the TAG. The next table shows different kind of options where it is allowed to combine multiple functions.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Function</th>
+<th style="text-align:left">Description</th>
+<th style="text-align:left">Function</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Start</td>
+<td style="text-align:left">Start</td>
+<td style="text-align:left">Stop</td>
+<td style="text-align:left">Stop</td>
+</tr>
+<tr>
+<td style="text-align:left">Startup</td>
+<td style="text-align:left">Starting up</td>
+<td style="text-align:left">Started</td>
+<td style="text-align:left">Started</td>
+</tr>
+<tr>
+<td style="text-align:left">Stopped</td>
+<td style="text-align:left">Stopped</td>
+<td style="text-align:left">Reset</td>
+<td style="text-align:left">Reset</td>
+</tr>
+<tr>
+<td style="text-align:left">Err</td>
+<td style="text-align:left">Error or fault</td>
+<td style="text-align:left">Gen</td>
+<td style="text-align:left">General</td>
+</tr>
+<tr>
+<td style="text-align:left">Mode</td>
+<td style="text-align:left">Mode of action</td>
+<td style="text-align:left">Opt</td>
+<td style="text-align:left">Option</td>
+</tr>
+<tr>
+<td style="text-align:left">Aut</td>
+<td style="text-align:left">Automatic</td>
+<td style="text-align:left">Hand</td>
+<td style="text-align:left">Hand or manual</td>
+</tr>
+<tr>
+<td style="text-align:left">OK</td>
+<td style="text-align:left">OK</td>
+<td style="text-align:left">NOK</td>
+<td style="text-align:left">NOK</td>
+</tr>
+<tr>
+<td style="text-align:left">Fw</td>
+<td style="text-align:left">Forward</td>
+<td style="text-align:left">Bw</td>
+<td style="text-align:left">Backward</td>
+</tr>
+<tr>
+<td style="text-align:left">Rev</td>
+<td style="text-align:left">Reverse</td>
+<td style="text-align:left">Test</td>
+<td style="text-align:left">Test</td>
+</tr>
+<tr>
+<td style="text-align:left">On</td>
+<td style="text-align:left">On</td>
+<td style="text-align:left">Off</td>
+<td style="text-align:left">Off</td>
+</tr>
+<tr>
+<td style="text-align:left">Le</td>
+<td style="text-align:left">Left</td>
+<td style="text-align:left">Ri</td>
+<td style="text-align:left">Right</td>
+</tr>
+<tr>
+<td style="text-align:left">Up</td>
+<td style="text-align:left">Up(ward)</td>
+<td style="text-align:left">Down</td>
+<td style="text-align:left">Down(ward)</td>
+</tr>
+<tr>
+<td style="text-align:left">Open</td>
+<td style="text-align:left">Open</td>
+<td style="text-align:left">Close</td>
+<td style="text-align:left">Close</td>
+</tr>
+<tr>
+<td style="text-align:left">Lo</td>
+<td style="text-align:left">Low</td>
+<td style="text-align:left">Hi</td>
+<td style="text-align:left">Hi</td>
+</tr>
+<tr>
+<td style="text-align:left">Lim</td>
+<td style="text-align:left">Limit</td>
+<td style="text-align:left">Enb</td>
+<td style="text-align:left">Enable</td>
+</tr>
+<tr>
+<td style="text-align:left">Vol</td>
+<td style="text-align:left">Volume</td>
+<td style="text-align:left">Pres</td>
+<td style="text-align:left">Pressure</td>
+</tr>
+<tr>
+<td style="text-align:left">Temp</td>
+<td style="text-align:left">Temperature</td>
+<td style="text-align:left">Flow</td>
+<td style="text-align:left">Flow</td>
+</tr>
+<tr>
+<td style="text-align:left">Vac</td>
+<td style="text-align:left">Vacuum</td>
+<td style="text-align:left">Level</td>
+<td style="text-align:left">Level</td>
+</tr>
+<tr>
+<td style="text-align:left">TRUE</td>
+<td style="text-align:left">Always TRUE</td>
+<td style="text-align:left">FALSE</td>
+<td style="text-align:left">Always FALSE</td>
+</tr>
+<tr>
+<td style="text-align:left">Box</td>
+<td style="text-align:left">Box</td>
+<td style="text-align:left">Pal</td>
+<td style="text-align:left">Pallet</td>
+</tr>
+<tr>
+<td style="text-align:left">1Hz</td>
+<td style="text-align:left">Frequency 1 HZ</td>
+<td style="text-align:left">2Hz</td>
+<td style="text-align:left">Frequency 2 Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">Ems</td>
+<td style="text-align:left">Emergency stop</td>
+<td style="text-align:left">Move</td>
+<td style="text-align:left">Move action</td>
+</tr>
+<tr>
+<td style="text-align:left">Fill</td>
+<td style="text-align:left">Fill action</td>
+<td style="text-align:left">Empty</td>
+<td style="text-align:left">Empty action</td>
+</tr>
+<tr>
+<td style="text-align:left">PV</td>
+<td style="text-align:left">Process value</td>
+<td style="text-align:left">SP</td>
+<td style="text-align:left">Setpoint</td>
+</tr>
+<tr>
+<td style="text-align:left">LMN</td>
+<td style="text-align:left">Loop manipulated value</td>
+<td style="text-align:left">Db</td>
+<td style="text-align:left">Deadband</td>
+</tr>
+<tr>
+<td style="text-align:left">Cmd</td>
+<td style="text-align:left">Command</td>
+<td style="text-align:left">...</td>
+<td style="text-align:left">...</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="suffix-option">Suffix (option)</h3>
+
+<p>The suffix is option that:</p>
+<ul>
+<li>Gives information about the SI units.</li>
+<li>Gives the relationship to the electrical drawings</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Prefix</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">mm</td>
+<td style="text-align:left">Distance or level in millimeters</td>
+</tr>
+<tr>
+<td style="text-align:left">m</td>
+<td style="text-align:left">Distance or level in meters</td>
+</tr>
+<tr>
+<td style="text-align:left">l</td>
+<td style="text-align:left">Volume in litres</td>
+</tr>
+<tr>
+<td style="text-align:left">S1</td>
+<td style="text-align:left">Electrical reference -S1</td>
+</tr>
+<tr>
+<td style="text-align:left">K1</td>
+<td style="text-align:left">Electrical reference -K1</td>
+</tr>
+<tr>
+<td style="text-align:left">Q1</td>
+<td style="text-align:left">Electrical reference -Q1</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="examples-1">Examples</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Examples</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">iCC_BtnStart_S1</td>
+<td style="text-align:left">Start pushbutton (-S1) on the control cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">iCC_BtnStop_S2</td>
+<td style="text-align:left">Stop pushbutton (-S2) on the control cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">iCC_RelEms_K1</td>
+<td style="text-align:left">Emergency stop relay (-K1) in the control cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">oCC_LmpStart_H1</td>
+<td style="text-align:left">Start lamp (-H1) on the control cabinet</td>
+</tr>
+<tr>
+<td style="text-align:left">oT10_SenLevel_S21</td>
+<td style="text-align:left">Level sensor (-S21) on tank T10</td>
+</tr>
+<tr>
+<td style="text-align:left">mT10_LevelPV_mm</td>
+<td style="text-align:left">Actual level of tank T10 [mm]</td>
+</tr>
+<tr>
+<td style="text-align:left">mT10_VolPV_l</td>
+<td style="text-align:left">Actual volume of tank T10 [l]</td>
+</tr>
+<tr>
+<td style="text-align:left">mGenStartup</td>
+<td style="text-align:left">Installation is starting up</td>
+</tr>
+<tr>
+<td style="text-align:left">mGenStarted</td>
+<td style="text-align:left">Installation started</td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
