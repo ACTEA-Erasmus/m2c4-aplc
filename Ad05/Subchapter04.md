@@ -1,4 +1,4 @@
-## controllerciruit structuring
+## Controllerciruit structuring
 
 ### Singular controlcircuit
 
@@ -6,22 +6,19 @@ This is the simplest controlcircuit. The controller keeps the controlled unit [X
 
 ![Single Circuit Example](../Ad05/Images/SingleCircuitjpg.jpg)
 
-Figuur 1220 : Singular controlcircuit
 
-Singular feedback controlcircuits get used there where the influence on the controldynamic and the controlresult minor is.
-
+Singular feedback controlcircuits are commonly used where the influence of the controldynamic and the controlresult are minor.
 
 ### Cascadecontroller or master/slave controller
 
-The imperfections of a single control loop are mainly improved by a cascade control. In cascade control, the control loop becomesdivided into a main control loop and an auxiliary control loop.
-For this there is at least one main or control controller (master) and one auxiliary orfollower control (slave) required.
+The imperfections of a single control loop are mainly improved by a cascade control. In cascade control, the control loop becomes divided into a main control loop and an auxiliary control loop.
+For this there is at least one main control controller (master) and one auxiliary orfollower control (slave) required.
 - The main or control controller regulates the main control variable to the desired one  value [W]
 - The main or control controller returns an analog SI unit [Yf]  which is processed by the auxiliary or follow-up controller as the desired value  [Yf = Wh]
 - The result of the auxiliary or tracking controller [Yh] influences the process of the  analog measurement of the main or control controller
 
 ![Cascade Example](../Ad05/Images/Cascade.jpg)
 
-Figuur 1221 : Cascade controller
 
 Depending on the needs can a cascadecontroller be equipped with multiple help controllers. Consequently you could place multiple help/follow controllers behind a head controller.
 
@@ -35,7 +32,6 @@ The simplest example of a ratio controller is for example the gas and airsupuply
 
 ![Ratio Example](../Ad05/Images/Ratio.jpg)
 
-Figuur 1222 : Ratio Controller
 
 The ratio between both SI units, gas and air gets used with a ratio factor on the setpoint for the control or follow controller.
 
@@ -50,7 +46,6 @@ The main or control controller controls the joint composition [Xg] with which it
 
 ![MixRatio Example](../Ad05/Images/MixRatio.jpg)
 
-Figuur 1223 : Mix ratio controller
 
 ### Split range controller
 
@@ -58,14 +53,13 @@ Some applications need multiple ajustment ratio's then gets achieved with only o
 
 A split range controller is a controller with one controlling SI unit and multiple controlled SI units.
 
-The controlling unit divides her actions over for example two adjustment devices.
+The controlling unit divides the actions over for example two adjustment devices.
 
 Split range controllers get used a lot in systems for heating and cooling.
 
-It is also useful for applications  in case the controlled variable varies over a big range.
+In case the controlled variable varies over a big range, will it be useful for applications.
 
 ![Split Range Example](../Ad05/Images/SplitRange.jpg)
 
-Figuur 1224 : Split range controller
 
 The controlleroutput gets split in parallel paths, each with a adjusting device.

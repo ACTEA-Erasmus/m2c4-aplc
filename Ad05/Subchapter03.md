@@ -28,13 +28,11 @@ entrance exit).
 
 ![Siemens Example](../Ad05/Images/SiemensEx5.jpg)
 
-Figuur 1214 : basic settings compact PID controller in TIA Portal
 If you opt for a peripheral input, you can convert it to the
 correct measuring range using the screen *“Process value settings”*.
 
 ![Siemens Example](../Ad05/Images/SiemensEx6.jpg)
 
-Figuur 1215 : Normalising of a peripheral input with a compact PID controller in TIA Portal
 
 The P, I and D action can be set via the screen *“PID Parameters”*. Notice
 that the different actions cannot be selected individually. One can only
@@ -44,21 +42,16 @@ assign a wait coefficient for the D action.
 
 ![Siemens Example](../Ad05/Images/SiemensEx7.jpg)
 
-Figuur 1216 :Setting P, I and D action with a compact PID controller in TIA
-Portal
 
 The output can be limited just like a continue controller. This can be done in the *"Output value limits"* screen.
 
 ![Siemens Example](../Ad05/Images/SiemensEx8.jpg)
 
-Figuur 1217 : Limiting of the controllerouput using a compact PID controller in TIA
-Portal
 
 Because of the different parameters being adjustable by using pop-up screens will the PID building block be compacter than the continue Siemens PID controller.
 
 ![Siemens Example](../Ad05/Images/SiemensEx9.jpg)
 
-Figuur 1218 : Call compact PID controller in TIA Portal
 
 ### Programmation example – Continue PID controller
 
@@ -91,11 +84,7 @@ The output is limited between 0 and 100+ (standard settings) and transformed to 
 
 Notice that the values are shown in light grey colour which are the standard values.
 
-| **De PID bouwsteen wordt door TIA Portal geplaatst in de map “Program Blocks\\System Blocks\\Program Resources”** |
+| **The PID buildblock gets saved by TIA PORTAL in the folder“Program Blocks\\System Blocks\\Program Resources”** |
 |------------------------------------------------------------------------------------------|
 
 ![Siemens Example](../Ad05/Images/SiemensEx10.jpg)
-
-
-
-Figuur 1219 : Programmation example - Continue PID controller

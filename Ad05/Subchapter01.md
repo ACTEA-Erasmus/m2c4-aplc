@@ -19,7 +19,6 @@ Controllers are defined by several Characteristics which is explained in the tab
 | Reset time     | TI            | DThe integrating action ensures a constant sum of the error and keeps outputting more signal depending on how long an error exists between measured and desired value. The integrator or I action is characterized by the time response of the integrator  |
 | Derivative time | TD            | The D action responds to the rate of change of the error. So only when creating a step will the D action give its contribution to the controller. The differentiating action or D action is characterized by the time response of the differentiator           |
 
-Tabel 121 : Definition controllers
 
 The measure difference is the difference between the loop manipulated value and the measured value.
 

@@ -18,11 +18,14 @@ The **GRAFCET programming in LAD/FBD with INT** is submitted to the next rules
 -   The actual value of this variable corresponds to the active GRAFCET step
 -   The initial step is automatically activated the first time the software is downloaded to the PLC; this because the INT number initial value is equal to the decimal value 0
 -   Input "iInit" is always present which causes the activation of the initial step on a rising edge of this input
--   Input "iStarted" is always present which process the result of an external start-stop basic circuit
+  - Input "iStarted" is always present which is the result of an external start-stop basic circuit signal that gets send to the GRAFCET
 
-![Siemens INT ](../Ad04/Images/SiemensINT1.jpg)
-![Siemens INT ](../Ad04/Images/SiemensINT2.jpg)
-![Siemens INT ](../Ad04/Images/SiemensINT3.jpg)
+![INT ](../Ad04/Images/SiemensINT1.jpg)
+![INT ](../Ad04/Images/SiemensINT2.jpg)
+![INT ](../Ad04/Images/SiemensINT3.jpg)
+![INT ](../Ad04/Images/SiemensINT4.jpg)
+![INT ](../Ad04/Images/SiemensINT5.jpg)
+![INT ](../Ad04/Images/SiemensINT6.jpg)
 
 | **Advantages** | **Disadvantages** |
 | :---:          | :---:             |
