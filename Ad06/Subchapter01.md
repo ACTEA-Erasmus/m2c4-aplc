@@ -10,7 +10,7 @@ The advantage of this is that one big problem[^1] will be divided in different s
 [^1]: Within (proces)automation is this commonly the automation of an entire machine/installation.
 The S88 software model divides a machine/installation proces in 3 big parts:
 
--   The physic part
+-   The physical part
 
 -   The procedure part
 
@@ -21,7 +21,7 @@ The S88 software model divides a machine/installation proces in 3 big parts:
 Because the S88 software model is very abstract and expanded we will be using a very simple form in this course:
 
 
--   The backspine is the physic part
+-   The backspine is the physical part
 
 -   The procedure part gets integrated in the physic part.
 

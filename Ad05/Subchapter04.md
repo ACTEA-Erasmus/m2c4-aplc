@@ -1,18 +1,18 @@
-## Controllerciruit structuring
+## Controller ciruit structuring
 
-### Singular controlcircuit
+### Singular control circuit
 
-This is the simplest controlcircuit. The controller keeps the controlled unit [X] stable on the set value [W]
+This is the simplest control circuit. The controller keeps the controlled unit [X] stable on the set value [W]
 
 ![Single Circuit Example](../Ad05/Images/SingleCircuitjpg.jpg)
 
 
-Singular feedback controlcircuits are commonly used where the influence of the controldynamic and the controlresult are minor.
+Singular feedback control circuits are commonly used where the influence of the controldynamic and the control result are minor.
 
-### Cascadecontroller or master/slave controller
+### Cascade controller or master/slave controller
 
 The imperfections of a single control loop are mainly improved by a cascade control. In cascade control, the control loop becomes divided into a main control loop and an auxiliary control loop.
-For this there is at least one main control controller (master) and one auxiliary orfollower control (slave) required.
+For this there is at least one main control controller (master) and one auxiliary or follower control (slave) required.
 - The main or control controller regulates the main control variable to the desired one  value [W]
 - The main or control controller returns an analog SI unit [Yf]  which is processed by the auxiliary or follow-up controller as the desired value  [Yf = Wh]
 - The result of the auxiliary or tracking controller [Yh] influences the process of the  analog measurement of the main or control controller
@@ -20,14 +20,14 @@ For this there is at least one main control controller (master) and one auxiliar
 ![Cascade Example](../Ad05/Images/Cascade.jpg)
 
 
-Depending on the needs can a cascadecontroller be equipped with multiple help controllers. Consequently you could place multiple help/follow controllers behind a head controller.
+Depending on the needs a cascade controller can be equipped with multiple help controllers. Consequently you could place multiple help/follow controllers behind a head controller.
 
 
 ### Ratio controller
 
-The ratio controller has just like a cascade controller a head controller and a help- or follow controller. The intention is to have multiple prcesunits in a constant ratio. The ratio controller gets used mostly for controlling 2 flow streams, between these 2 flow streams a determined ratio needs to be present.
+The ratio controller has just like a cascade controller a head controller and a help- or follow controller. The intention is to have multiple processunits in a constant ratio. The ratio controller gets used mostly for controlling 2 flow streams, between these 2 flow streams a determined ratio needs to be present.
 
-The simplest example of a ratio controller is for example the gas and airsupply in a gas incinerator. The head controller controls the amount of gas, depending on the desired oven temperature. The help or follow controller gets controlled by the actual value of the head controller which then controls the amount of air.
+The simplest example of a ratio controller is for example the gas and air supply in a gas incinerator. The head controller controls the amount of gas, depending on the desired oven temperature. The help or follow controller gets controlled by the actual value of the head controller which then controls the amount of air.
 
 
 ![Ratio Example](../Ad05/Images/Ratio.jpg)
@@ -49,11 +49,11 @@ The main- or control-controller controls the joint composition [Xg] it controls 
 
 ### Split range controller
 
-Some applications need multiple ajustment ratio's then gets achieved with only one adjusting device, example a controlvalve.
+Some applications need multiple ajustment ratios, that can be achieved with only one adjusting device, for example a controlvalve.
 
 A split range controller is a controller with one controlling SI unit and multiple controlled SI units.
 
-The controlling unit divides the actions over for example two adjustment devices.
+The controlling unit divides its actions over for example two adjustment devices.
 
 Split range controllers get used a lot in systems for heating and cooling.
 
@@ -62,4 +62,4 @@ In case the controlled variable varies over a big range, will it be useful for a
 ![Split Range Example](../Ad05/Images/SplitRange.jpg)
 
 
-The controlleroutput gets split in parallel paths, each with a adjusting device.
+The controller output gets split in parallel paths, each with an adjusting device.

@@ -3,7 +3,7 @@
 ### Functioning
 
 A PID controller is used to control processes via an analog actuator
-[Y = INT or WORD]. A PID controller consists of several sub-functions. So
+[Y = INT or WORD]. A PID controller consists of several sub-functions. So,
 one distinguishes:
 
 - P or Proportional action
@@ -38,16 +38,16 @@ The output can be limited just like a continue controller. This can be done in t
 ![Siemens Example](../Ad05/Images/SiemensEx8.jpg)
 
 
-Because of the different parameters being adjustable by using pop-up screens, the PID building block will be compacter than the continue Siemens PID controller.
+Because of the different parameters being adjustable by using pop-up screens, the PID building block will be compacter than the continuing Siemens PID controller.
 
 ![Siemens Example](../Ad05/Images/SiemensEx9.jpg)
 
 
-### Programmation example – Continue PID controller
+### Programming example – Continue PID controller
 
-In the programation example below will you find the programation of a continue PID controller.
+In the programming example below will you find the programming of a continue PID controller.
 
-The analog pressuresensor %IW256 gets formed internally so that the following results are obtained:
+The analog pressure sensor %IW256 gets formed internally so that the following results are obtained:
 
 -   PV_NORM = (output CRP_IN) . PV_FAC + PV_OFF
 
@@ -57,7 +57,7 @@ The analog pressuresensor %IW256 gets formed internally so that the following re
 
 -   12.0 bar = (100%) . 0,11 + 1.0
 
-The loop manipulated value is variable adjstable suing %MD20. This way we can adjust the loop manipulated value with changing the userprogram.
+The loop manipulated value is variable adjustable suing %MD20. This way we can adjust the loop manipulated value with changing the user program.
 
 The dead band is adjustable at 1.2 bar. In case (W - XDo/2) \< X \< (W + XDo /2)
 The output of the controller doesn't change.
@@ -66,7 +66,7 @@ The controller is adjustable so that:
 
 -   The P-action is activated and the gain is set to 5.2
 
--   The I-action is activated and the resettime is set to 2 min.
+-   The I-action is activated and the reset time is set to 2 min.
 
 -   The D-action is deactivated
 
