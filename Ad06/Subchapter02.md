@@ -16,5 +16,3 @@ _Examples_
 | FB_CM_Valve   | Controlling of an (pressurised air) valve  |
 | FB_CM_Relay   | Controlling of a relay |
 | FB_CM_Lamp  | Controlling of a (LED) lamp  |
-# Digital sensor
-A **digital sensor** (Ex.:limit switch, inductive sensor, capacitive sensor, tuning fork,...) processes mainly the presence of a product, object, person, etc. . It has 2 conditions

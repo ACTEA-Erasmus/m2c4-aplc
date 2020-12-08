@@ -1,4 +1,4 @@
-# GRAFCET programmating in LAD/FBD using BOOL
+# GRAFCET programming in LAD/FBD using BOOL
 
 Converting a **GRAFCET design to software code** is demonstrated with the GRAFCET described in subchapter 2.
 
@@ -6,7 +6,7 @@ The GRAFCET is programmed in the LAD orFBD programming language in the function 
 
 ![Interface variables ](../Ad04/Images/SiemensVarLAd.jpg)
 
-The programmating is split into **3 parts** which are chronologically programmed in different networks:
+The programming is split into **3 parts** which are chronologically programmed in different networks:
 -   Initialization (network 1)
 -   Transition-conditions (network 3 ... x)
 -   Actions (network x+1 ... last network)
@@ -16,7 +16,7 @@ The **GRAFCET programming in LAD/FBD with BOOL** follows the next rules
 -   This variable is an ARRAY of BOOL starting with 0 and ending with max. step number
 -   In case the corresponding variable is TRUE, the step will be active
 -   Input "iInit" is always present which causes the activation of the initial step on a rising edge of this input
--   Input "iStarted" is always present which processes the result of an external start-stop basic circuit.
+-   Input "iStarted" is always present which processes the result of an external start-stop basic circuit
 
 ![FBD  ](../Ad04/Images/SiemensiInitLAD.jpg)
 ![FBD  ](../Ad04/Images/SiemensFBD.jpg)

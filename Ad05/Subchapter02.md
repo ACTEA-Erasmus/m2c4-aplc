@@ -5,11 +5,11 @@ The **on-off circuit**[^1] gets used to switch a control output Y [BOOL] on or o
 
 ![ON_OFF](../Ad05/Images/ON-OFFeX.jpg)
 
-The difference between the switch-on and switch-off threshold values becomes the
+The difference between the switch-on and switch-off threshold values becomes the so
 called hysteresis. The following mathematical formulas apply:
 
-Switch-on threshold or lowerlimit = X -  Hysteresis/2.0
-Switch-off threshold or upperlimit = X +  Hysteresis/2.0
+Switch-on threshold or lower limit = X -  Hysteresis/2.0
+Switch-off threshold or upper limit = X +  Hysteresis/2.0
 
  **FBD**
  ![Siemens Example](../Ad05/Images/SiemensEx1.jpg)
@@ -21,6 +21,7 @@ Switch-off threshold or upperlimit = X +  Hysteresis/2.0
 
 In case the process value is lower then the  switch-on treshold, will the loop manipulated value turn off.
 As soon as the process value reaches the switch-off treshold, will the loop manipulated value turn off.
+
 **FBD**
 ![Siemends Example](../Ad05/Images/SiemensEx3.jpg)
 
@@ -30,7 +31,8 @@ As soon as the process value reaches the switch-off treshold, will the loop mani
 
  **Example on-off switch - Heating in a home**
   Homes are often equipped with a thermostat to measure and control the temperature in a room.
-  - The thermostat measures the room temperature = measured value X The ideal temperature is entered on the thermostat = desired value W
+  - The thermostat measures the room temperature = measured value X
+  - The ideal temperature is entered on the thermostat = desired value W
   - If it is too cold, the thermostat ensures that the boiler is switched on = closed contact = control output Y on
-  - If it is too hot, the thermostat ensure that the boiler is switched off = open contact = control output Y off
+  - If it is too hot, the thermostat ensures that the boiler is switched off = open contact = control output Y off
   - Depending on the type of thermostat, the hysteresis is a fixed value or adjustable (order of magnitude 0.5 to 1.0 ° C)

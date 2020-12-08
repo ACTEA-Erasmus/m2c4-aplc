@@ -45,8 +45,4 @@ The following chapters describe different buildblocks that are included in the s
 |       ![Positive flank ](../Ad06/Images/Pflank.jpg)      | Positive flank signal                                                                                                       |
 |        ![Negative flank ](../Ad06/Images/Nflank.jpg)     | Negative flank signal                                                                                                       |
 
-
-Het werkingsschema wordt zo opgesteld dat alle inkomende signalen zo ver
-mogelijk links worden geplaatst en alle uitgaande signalen rechts. Verbindingen
-worden hierbij al dan niet met stippellijn getekend (bij kruisende lijnen) om
-verwarring te voorkomen.
+The operationscheme gets drawn up so that every incoming signal is as far to the left as possible and all output signals are to the right. Connections are wether or not drawn with dotted lines (with crossing lines) to avoid confusion.
