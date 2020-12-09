@@ -21,7 +21,7 @@ The designing of a strategy can be done with the following methods:
   - By designing a GRAFCET drawing
   - By designing a flowchart drawing
   - By determining the needed mathematical formulas
-  - By drawing of a Operationscheme
+  - By drawing of an Operationscheme
   - By selecting a controller and determining the corresponding parameters in the shape of a table
 
 ## Procedure element
@@ -29,8 +29,8 @@ The designing of a strategy can be done with the following methods:
 A **procedure element** is the software translation(programming) of a procedure. A procedure drawing, scheme or table need to be present for each procedure element. Some of these procedure elements are commonly used in machines/installations this causes them to preferably be included into a software library. Other procedure elements get delivered by the producer of the processing unit:
 - Start-stop procedure (software library) = To start and stop actuators, machines/installations in the correct way
 - Reset procedure (software library) = To create a reset signal in the correct way
-- Twopoint controller (software library) = Controlling a digital sensor using a on-off controller with the help of a analog sensor
-- PID-controller (software catalog Siemens) = To control a analog output
+- Twopoint controller (software library) = Controlling a digital sensor using an on-off controller with the help of an analog sensor
+- PID-controller (software catalog Siemens) = To control an analog output
 
 Preferably procedure elements get programmed in "Function buildblocks", the TAG-naming gets expanded with the letters PE.
 
@@ -52,7 +52,7 @@ characteristics of the start-stop procedure:
 [^1]: NO = Normal open
 [^2]: NC = Normal closed
 
-It is possible with the description to draft a operation scheme for the control module with the name FB_PE_StartStop
+It is possible with the description to draft an operation scheme for the control module with the name FB_PE_StartStop
 
 ![Operationscheme FB_PE_StarStop ](../Ad06/Images/OperationschemeFB_PE_StartStop.jpg)
 
@@ -92,14 +92,14 @@ The endresult is a **"Function buildblock"** which looks like the following imag
 
 ## Twopoint controller with hysteresis
 
-A **twopoint controller with hysteresis** uses an on-off switch to switch a actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
+A **twopoint controller with hysteresis** uses an on-off switch to switch an actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
 
-a **twopoint controller with hysteresis** is consequently a on-off circuit with extra functionality like:
+a **twopoint controller with hysteresis** is consequently an on-off circuit with extra functionality like:
 - The result of the controller (oY) is also offered inverted (oY_NOT)
 - The possibility to switch the controller on and off. With turned-off controllers all the controloutputs have the status FALSE(oY & oY_NOT)
 - Setpoint (iW), the measured value (iX) and the hysteresis (iH) are adjustable
 
-It is possible with the description to draft a operation scheme for the control module with the name FB_PE_TWPH
+It is possible with the description to draft an operation scheme for the control module with the name FB_PE_TWPH
 
 ![Operationscheme FB_PE_ON-OFF ](../Ad06/Images/OperationschemeFB_PE_TWPH.jpg)
 
