@@ -19,13 +19,14 @@ One can expand the functionalities of the control module:
 - If manual mode is activated (iModeHand), the module will ignore the request from the thinkprocess (iAutR & iAutL) and runs the motor right(oConR) whenever the manual signal is given (iHandR)
 - If manual mode is activated (iModeHand), the module will ignore the request from the thinkprocess (iAutR & iAutL) and runs the motor left(oConL) whenever the manual signal is given (iHandL)
 - The control module won't change run condition if the mode changes from automatic mode (NOT iModeHand) to hand mode (iModeHand)
-- It is possible with the description to draft a operation scheme for the control module with the name FB_CM_DOLRev
+
+It is possible with the description to draft a operation scheme for the control module with the name FB_CM_DOLRev
 
 ![Operationscheme for a direct online reverse control module ](../Ad06/Images/OperationschemeFB_CM_DOLRev.jpg)
 
-The endresult is a "Function buildblock" which looks like the follwing images.
+The endresult is a "Function buildblock" which looks like the following images.
 
-|Text | Image |
---|---|--
-FDB example  | ![TIA image of control module FB_CM_DOLRev](../Ad06/Images/TIA-FB_CM_DOLRev.jpg)  |
-More simple example  | ![Simple image of control module FB_CM_DOLRev ](../Ad06/Images/SimpleFB_CM_DOLRev.jpg)  |
+| Text |Image |
+| :---:      | :----            |
+| FDB example  | ![TIA image of control module FB_CM_DOLRev](../Ad06/Images/TIA-FB_CM_DOLRev.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_DOLRev ](../Ad06/Images/SimpleFB_CM_DOLRev.jpg)  |

@@ -20,9 +20,9 @@ It is possible with the description to draft a operation scheme for the control 
 
 ![Operationscheme for a direct online control module ](../Ad06/Images/OperationschemeFB_CM_DOL.jpg)
 
-The endresult is a "Function buildblock" which looks like the follwing images.
+The endresult is a "Function buildblock" which looks like the following images.
 
-|Text | Image |
---|---|--
-FDB example  | ![TIA image of control module FB_CM_DOL](../Ad06/Images/TIA-FB_CM_DOL.jpg)  |
-More simple example  | ![Simple image of control module FB_CM_DOL ](../Ad06/Images/SimpleFB_CM_DOL.jpg)  |
+| Text | Image |
+|--|---|
+| FDB example  | ![TIA image of control module FB_CM_DOL](../Ad06/Images/TIA-FB_CM_DOL.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_DOL ](../Ad06/Images/SimpleFB_CM_DOL.jpg)  |

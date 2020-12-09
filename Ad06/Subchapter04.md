@@ -15,9 +15,9 @@ It is possible with the description to draft a operation scheme for the control 
 
 Notice that the operationscheme is drafted for analog sensor that work following the Siemens principal, they have a normal range of 0 .. 27.648 / -27648 .. + 27648.
 
-The endresult is a "Function buildblock" which looks like the follwing images.
+The endresult is a "Function buildblock" which looks like the following images.
 
-|Text | Image |
---|---|--
-FDB example  | ![TIA image of control module FB_CM_AI_Sensor ](../Ad06/Images/TIA-FB_CM_AI_Sensor.jpg)  |
-More simple example  | ![Simple image of control module FB_CM_AI_Sensor ](../Ad06/Images/SimpleFB_CM_AI_Sensor.jpg)  |
+| Text | Image |
+| --|---|--
+| FDB example  | ![TIA image of control module FB_CM_AI_Sensor ](../Ad06/Images/TIA-FB_CM_AI_Sensor.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_AI_Sensor ](../Ad06/Images/SimpleFB_CM_AI_Sensor.jpg)  |

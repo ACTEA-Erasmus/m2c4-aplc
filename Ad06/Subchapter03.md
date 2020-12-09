@@ -19,7 +19,7 @@ It is possible with the description to draft a operation scheme for the control 
 ![operation scheme control module FB_CM_DI_Sensor ](../Ad06/Images/OperationschemeCMFB_CM_DI_Sensor.jpg)
 
 This results into a "Function buildblock" which looks like the following images.
-|Text | Image |
---|---|--
-FDB example  | ![TIA image of control module FB_CM_DI_Sensor ](../Ad06/Images/TIA-FB_CM_DI_Sensor.jpg)  |
-More simple example  | ![Simple image of control module FB_CM_DI_Sensor ](../Ad06/Images/SimpleFB_CM_DI_Sensor.jpg)  |
+| Text | Image |
+| --|---|
+| FDB example  | ![TIA image of control module FB_CM_DI_Sensor ](../Ad06/Images/TIA-FB_CM_DI_Sensor.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_DI_Sensor ](../Ad06/Images/SimpleFB_CM_DI_Sensor.jpg)  |
