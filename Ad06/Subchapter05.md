@@ -35,7 +35,7 @@ A **procedure element** is the software translation(programming) of a procedure.
 Preferably procedure elements get programmed in "Function buildblocks", the TAG-naming gets expanded with the letters PE.
 
 | Examples | Description |
-| --- | --- |
+| :---: | :---: |
 | FB_PE_StarStop | Start-stop procedure  |
 | FB_PE_Reset | Reset procedure  |
 
@@ -59,7 +59,7 @@ It is possible with the description to draft an operation scheme for the control
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :----:            |
 | FDB example  | ![TIA image of control module FB_PE_StartStop ](../Ad06/Images/TIA-FB_PE_StartStop.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_StarStop ](../Ad06/Images/SimpleFB_PE_StartStop.jpg)  |
 
@@ -86,7 +86,7 @@ It is possible with the description to draft a operation scheme for the control 
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :----:            |
 | FDB example  | ![TIA image of control module FB_PE_Reset ](../Ad06/Images/TIA-FB_PE_Reset.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_Reset ](../Ad06/Images/SimpleFB_PE_Reset.jpg)  |
 
@@ -106,7 +106,7 @@ It is possible with the description to draft an operation scheme for the control
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :----:            |
 | FDB example  | ![TIA image of control module FB_PE_ON-OFF ](../Ad06/Images/TIA-FB_PE_On-Off.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_ON-OFF ](../Ad06/Images/SimpleFB_PE_On-Off.jpg)  |
 

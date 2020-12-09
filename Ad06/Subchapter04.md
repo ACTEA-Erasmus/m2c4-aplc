@@ -34,7 +34,7 @@ It is possible with the description to draft a operation scheme for the control 
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :----:            |
 | FDB example  | ![TIA image of control module FB_CM_Valve](../Ad06/Images/TIA-FB_CM_Valve.jpg)  |
 | More simple example  | ![Simple image of control module FB_CM_Vavle ](../Ad06/Images/SimpleFB_CM_Valve.jpg)  |
 
@@ -59,7 +59,7 @@ It is possible with the description to draft a operation scheme for the control 
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :---:            |
 | FDB example  | ![TIA image of control module FB_CM_Relay](../Ad06/Images/TIA-FB_CM_Relay.jpg)  |
 | More simple example  | ![Simple image of control module FB_CM_Relay ](../Ad06/Images/SimpleFB_CM_Relay.jpg)  |
 
@@ -80,6 +80,6 @@ It is possible with the description to draft a operation scheme for the control 
 The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
-| :---:      | :----            |
+| :---:      | :---:            |
 | FDB example  | ![TIA image of control module FB_CM_Lamp ](../Ad06/Images/TIA-FB_CM_Lamp.jpg)  |
 | More simple example  | ![Simple image of control module FB_CM_Lamp ](../Ad06/Images/SimpleFB_CM_Lamp.jpg)  |
