@@ -21,7 +21,7 @@ It is possible with the description to draft a operation scheme for the control 
 
 ![Operationscheme for a direct online control module ](../Ad06/Images/OperationschemeFB_CM_DOL.jpg)
 
-The endresult is a "Function buildblock" which looks like the following images.
+The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text | Image |
 |--|---|
@@ -54,7 +54,7 @@ It is possible with the description to draft a operation scheme for the control 
 
 ![Operationscheme for a direct online reverse control module ](../Ad06/Images/OperationschemeFB_CM_DOLRev.jpg)
 
-The endresult is a "Function buildblock" which looks like the following images.
+The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----            |

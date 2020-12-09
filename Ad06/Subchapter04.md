@@ -1,4 +1,4 @@
-# Valve
+## Valve
 
 A valve is used to power compressed air or hydraulic actuators (ex. compressed air cylinder). The combination of a valve and actuator has a specific funcionality:
 - Monostable power circuit: In case there is a loss of power the actuator will automatically take its residual state (ex. single-acting compressed air cylinder)
@@ -31,9 +31,55 @@ It is possible with the description to draft a operation scheme for the control 
 
 ![Operationscheme for a valve ](../Ad06/Images/OperationschemeFB_CM_Vlv.jpg)
 
-The endresult is a "Function buildblock" which looks like the following images.
+The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----            |
 | FDB example  | ![TIA image of control module FB_CM_Valve](../Ad06/Images/TIA-FB_CM_Valve.jpg)  |
 | More simple example  | ![Simple image of control module FB_CM_Vavle ](../Ad06/Images/SimpleFB_CM_Valve.jpg)  |
+
+## Relay
+
+A **relay** is often used to build up communication with:
+- Other PLC's via a potential-free contacts
+- Other devices like frequency controllers
+
+![Object of a relay ](../Ad06/Images/ObjectRelay.jpg)
+
+Just like a asynchronous motor can one assign multiple functionalities to the corresponding control module such as:
+- If the thinkprocess asks to activate the realy (iAut), the relay will be activated (oRel)
+- The relay will only be activated if this is enabled (iEnable)
+- If hand mode (iModeHand) is activated then will the module ignore the thinkprocess's signal (iAut) and activates the relay based on the handsignals
+- If it's asked to activate the relay, the module has the possibility to activate a rise delay (iTON_Time) and/or drop-out delay (iTOF_Time)
+
+It is possible with the description to draft a operation scheme for the control module with the name FB_CM_Relay
+
+![Operationscheme FB_CM_Relay ](../Ad06/Images/OperationschemeFB_CM_Relay.jpg)
+
+The endresult is a **"Function buildblock"** which looks like the following images.
+
+| Text |Image |
+| :---:      | :----            |
+| FDB example  | ![TIA image of control module FB_CM_Relay](../Ad06/Images/TIA-FB_CM_Relay.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_Relay ](../Ad06/Images/SimpleFB_CM_Relay.jpg)  |
+
+## Lamp
+
+A **lamp** is used to inform an operator about the status of a machine/installation or part of it.
+
+A lamp control module handles following functionalities:
+- Continues lighting of the lamp (iAut)
+- Blinking of the lamp (iAaut_1Hz)
+- Fast blinking of the lamp (iAut_2Hz)
+- Activating the lamp if a lamp test(= controlling the lamps on defective lamps by maintenance technicians) is being executed (iHandTest)
+
+It is possible with the description to draft a operation scheme for the control module with the name FB_CM_Lamp
+
+![Operationscheme FB_CM_Lamp ](../Ad06/Images/OperationschemeFB_CM_Lamp.jpg)
+
+The endresult is a **"Function buildblock"** which looks like the following images.
+
+| Text |Image |
+| :---:      | :----            |
+| FDB example  | ![TIA image of control module FB_CM_Lamp ](../Ad06/Images/TIA-FB_CM_Lamp.jpg)  |
+| More simple example  | ![Simple image of control module FB_CM_Lamp ](../Ad06/Images/SimpleFB_CM_Lamp.jpg)  |

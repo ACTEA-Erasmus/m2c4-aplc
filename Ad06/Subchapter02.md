@@ -19,7 +19,7 @@ It is possible with the description to draft a operation scheme for the control 
 
 ![operation scheme control module FB_CM_DI_Sensor ](../Ad06/Images/OperationschemeCMFB_CM_DI_Sensor.jpg)
 
-This results into a "Function buildblock" which looks like the following images.
+This results into a **"Function buildblock"** which looks like the following images.
 | Text | Image |
 | --|---|
 | FDB example  | ![TIA image of control module FB_CM_DI_Sensor ](../Ad06/Images/TIA-FB_CM_DI_Sensor.jpg)  |
@@ -42,7 +42,7 @@ It is possible with the description to draft a operation scheme for the control 
 
 Notice that the operationscheme is drafted for analog sensor that work following the Siemens principal, they have a normal range of 0 .. 27.648 / -27648 .. + 27648.
 
-The endresult is a "Function buildblock" which looks like the following images.
+The endresult is a **"Function buildblock"** which looks like the following images.
 
 | Text | Image |
 | --|---|--
