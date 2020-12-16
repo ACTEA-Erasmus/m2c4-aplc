@@ -22,11 +22,11 @@ Set the IP address "192.168.0.10" under IP protocol.
 
 ## Compiling the CPU and panel and saving the project
 
-To compile the CPU, click on the "CPU_1214C" folder, and select the "Compile" button for compiling in the menu. To compile the panel, click on the "Panel KTP1500 Basic" folder, and select the "Compile" button for compiling in the menu. You can save your project by clicking on the "Save Project"  button in the menu.
+To compile the CPU, click on the "CPU_1215C" folder, and select the "Compile" button for compiling in the menu. To compile the panel, click on the "Panel KTP1500 Basic" folder, and select the "Compile" button for compiling in the menu. You can save your project by clicking on the "Save Project"  button in the menu.
 ( CPU_1215C > "Compile" > Panel KTP700 Basic > "Compile" > Save project  ).
 
 ![TIA Portal Adding HMI](../Ad03/Images/Step14.jpg)
 
-In the "Info" area under "Compile", it is then shown whether the compilation was successful or whether warnings or errors occurred.
+In the "Info" area under "Compile", it is then shown whether the compilation was successful or whether warnings or errors have occurred.
 
 ![TIA Portal Adding HMI](../Ad03/Images/Step15.jpg)
