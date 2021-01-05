@@ -61,7 +61,7 @@ Within a display you can have a "Appearance" or "Visibility" animation. The appe
 
 Within **movements** there are 4 different movements, direct movement, diagonal movement, horizontal movement and vertical movement. Direct movement will allow you to move a object from point A to B in a direct way. Diagonal movement will move from point A to B diagonally. Horizontal movement will move from point A to B horizontaly. Vertical movement will move from point A to B vertically.
 
-Horizontal and vertical movemnt can be assigned to a tag value so that depending on that value the object will move towards one point. For example:
+Horizontal and vertical movement can be assigned to a tag value so that depending on that value the object will move towards one point. For example:
 
 ![TIA Portal Adding HMI](../Ad03/Images/Step26.jpg)
 

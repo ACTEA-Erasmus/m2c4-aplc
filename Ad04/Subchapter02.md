@@ -145,6 +145,7 @@ In case the box went 5x backwards and forward this will be displayed with a gree
 <p><p>
 It is possible to **initialize** the GRAFCET. This is the activation of the initial step (step 0) by using GRAFCET input variable "iInit". All the other active steps get deactivated. The initialising is only activated on the rising edge of "iInit".
 <p><p>
+
 ![iInit Grafcet Example ](../Ad04/Images/iInitGRAFCET.jpg)
 
 You could choose to initialize the installation in case you press the start and stop button simultaneously for 5 seconds or more.

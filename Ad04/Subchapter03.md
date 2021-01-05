@@ -2,9 +2,9 @@
 
 Converting a **GRAFCET design to software code** is demonstrated with the GRAFCET described in subchapter 2.
 
-The GRAFCET is programmed in the LAD orFBD programming language in the function block (%FB) with the use of STATIC parameters. STATIC parameters can remember their status without the PLC being powered on if they are configured to retain.
+The GRAFCET is programmed in the LAD or FBD programming language in the function block (%FB) with the use of STATIC parameters. STATIC parameters can remember their status without the PLC being powered on if they are configured to retain.
 
-![Interface variables ](../Ad04/Images/SiemensVarLAd.jpg)
+![Interface variables ](../Ad04/Images/SiemensVarLAD.jpg)
 
 The programming is split into **3 parts** which are chronologically programmed in different networks:
 -   Initialization (network 1)
