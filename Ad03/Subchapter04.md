@@ -9,7 +9,7 @@ You will see a text box in the center of the screen, we will remove this by righ
 ![TIA Portal Adding HMI](../Ad03/Images/Step17.jpg)
 
 ## Toolbox
-These contain the most commonly used objects, elements and controls used in a HMI display.
+These contain the most commonly used objects, elements and controls used in a HMI display.<p><p>
 ![TIA Portal Adding HMI](../Ad03/Images/Step18.jpg)
 
 ### Basic objects

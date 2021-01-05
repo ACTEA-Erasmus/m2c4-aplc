@@ -1,8 +1,8 @@
 # Physical part
 ## Equipment modules
 
-An **equipment module** is a collection of multiple control modules and/or other equipment modules. The collection is build upon the physical relationship they have with each other.
-With other words a equipment module is a software buildblock that has a minimum of 2 buildblocks of the type control modules and/or equipment modules/.
+An **equipment module** is a collection of multiple control modules and/or other equipment modules. The collection is built upon the physical relationship they have with each other.
+In other words, an equipment module is a software building block that has a minimum of 2 building blocks of the type control modules and/or equipment modules/.
 Equipment modules are preferably programmed in "Functions", the TAG-naming gets expanded with the letters EM.
 
 | Examples | Description |
@@ -15,24 +15,24 @@ Equipment modules are preferably programmed in "Functions", the TAG-naming gets 
 # Procedure part
 ## Procedure
 
-A **procedure** is a strategy, thinkprocess to solve a problem. First a strategy gets designed on paper using a certain method. Next the strategy will be translated to a software buildblock which we call the procedure element.
+A **procedure** is a strategy, think process to solve a problem. First, a strategy gets designed on paper using a certain method. Next the strategy will be translated to a software building block which we call the procedure element.
 
 The designing of a strategy can be done with the following methods:
   - By designing a GRAFCET drawing
   - By designing a flowchart drawing
   - By determining the needed mathematical formulas
-  - By drawing of an Operationscheme
+  - By drawing of an operation scheme
   - By selecting a controller and determining the corresponding parameters in the shape of a table
 
 ## Procedure element
 
-A **procedure element** is the software translation(programming) of a procedure. A procedure drawing, scheme or table need to be present for each procedure element. Some of these procedure elements are commonly used in machines/installations this causes them to preferably be included into a software library. Other procedure elements get delivered by the producer of the processing unit:
+A **procedure element** is the software translation(programming) of a procedure. A procedure drawing, scheme or table needs to be present for each procedure element. Some of these procedure elements are commonly used in machines/installations. This causes them to preferably be included into a software library. Other procedure elements get delivered by the producer of the processing unit:
 - Start-stop procedure (software library) = To start and stop actuators, machines/installations in the correct way
 - Reset procedure (software library) = To create a reset signal in the correct way
-- Twopoint controller (software library) = Controlling a digital sensor using an on-off controller with the help of an analog sensor
+- Two-point controller (software library) = Controlling a digital sensor using an on-off controller with the help of an analog sensor
 - PID-controller (software catalog Siemens) = To control an analog output
 
-Preferably procedure elements get programmed in "Function buildblocks", the TAG-naming gets expanded with the letters PE.
+Procedure elements get preferably programmed in "Function building blocks", the TAG-naming gets expanded with the letters PE.
 
 | Examples | Description |
 | :---: | :---: |
@@ -43,7 +43,7 @@ Preferably procedure elements get programmed in "Function buildblocks", the TAG-
 
 A **start-stop procedure** is used to start or stop an actuator and/or the automatic process of a machine/installation (or parts of it). We use a classic start-stop circuit that is expanded with extra functionality.
 
-characteristics of the start-stop procedure:
+Characteristics of the start-stop procedure:
 - The stop action (iBtnStop) has priority on the start action (iBtnStart) which is mandatory following the machine guidelines
 - The start signal is of the type NO-contact[^1], the stop signal is of the type NC-contact[^2]
 - The operator is obligated to press the start button (iBtnStart) (Electrically bridging the start button isn't allowed)
@@ -56,7 +56,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme FB_PE_StarStop ](../Ad06/Images/OperationschemeFB_PE_StartStop.jpg)
 
-The endresult is a **"Function buildblock"** which looks like the following images.
+The end result is a **"Function building block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
@@ -66,44 +66,44 @@ The endresult is a **"Function buildblock"** which looks like the following imag
 ## Reset procedure elements
 
 The **reset procedure** gets used to create a checked reset signal. Checked because the signal coming from ex. an electrical reset button(NO-contact) can include issues like:
-- An electrical circuit of the reset button can have a shortcircuit (it is like the button is being pressed the entire time)
+- An electrical circuit of the reset button can have a short circuit (it is like the button is being pressed the entire time)
 - The reset button is electrically bridged (it is like the button is being pressed the entire time)
 - Bad/fake contact in the electrical circuit of the reset button (it is possible by vibrations in the installation the contact on/off/on/off/on/off/.. switches)
 
-Because these situations can lead to oncontrolled situations, the reset procedure gets designed with the following functionalities:
-- LHL[^3] functionality after pressing the reset button (iBtnReset) this between a set time (the high range) has to be let go to produce a outputsignal
-- A checked outputsignal that is max. 1s TRUE (oReset_1s)
-- A checked outputsignal that is max. 1 PLC-cycle TRUE is (=edge signal)(oReset)
+Because these situations can lead to uncontrolled situations, the reset procedure gets designed with the following functionalities:
+- LHL[^3] functionality after pressing the reset button (iBtnReset) this between a set time (the high range) has to be let go to produce an outputsignal
+- A checked output signal that is max. 1s is TRUE (oReset_1s)
+- A checked output signal that is max. 1 PLC-cycle TRUE is (=edge signal)(oReset)
 
 ![Simple image of control module LHL reset procedure ](../Ad06/Images/Operationdiagram_LHLreset.jpg)
 
 [^3]: LHL = Low / High / Low
 
-It is possible with the description to draft a operation scheme for the control module with the name FB_PE_Reset
+It is possible with the description to draft an operation scheme for the control module with the name FB_PE_Reset
 
 ![Operationscheme FB_PE_Reset ](../Ad06/Images/OperationschemeFB_PE_Reset.jpg)
 
-The endresult is a **"Function buildblock"** which looks like the following images.
+The end result is a **"Function building block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
 | FDB example  | ![TIA image of control module FB_PE_Reset ](../Ad06/Images/TIA-FB_PE_Reset.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_Reset ](../Ad06/Images/SimpleFB_PE_Reset.jpg)  |
 
-## Twopoint controller with hysteresis
+## Two-point controller with hysteresis
 
-A **twopoint controller with hysteresis** uses an on-off switch to switch an actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
+A **two-point controller with hysteresis** uses an on-off switch to switch an actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
 
-a **twopoint controller with hysteresis** is consequently an on-off circuit with extra functionality like:
+A **two-point controller with hysteresis** is consequently an on-off circuit with extra functionality like:
 - The result of the controller (oY) is also offered inverted (oY_NOT)
-- The possibility to switch the controller on and off. With turned-off controllers all the controloutputs have the status FALSE(oY & oY_NOT)
+- The possibility to switch the controller on and off. With turned-off controllers all the control outputs have the status FALSE(oY & oY_NOT)
 - Setpoint (iW), the measured value (iX) and the hysteresis (iH) are adjustable
 
 It is possible with the description to draft an operation scheme for the control module with the name FB_PE_TWPH
 
 ![Operationscheme FB_PE_ON-OFF ](../Ad06/Images/OperationschemeFB_PE_TWPH.jpg)
 
-The endresult is a **"Function buildblock"** which looks like the following images.
+The end result is a **"Function building block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
@@ -112,9 +112,9 @@ The endresult is a **"Function buildblock"** which looks like the following imag
 
 ## Specific designed procedure elements
 
-Not al the thinkprocess can be collected with standard procedures. It's often necessary to design specific procedures and procedure elements. One of these following analyse methods gets applied to determine the strategy:
+Not all the think process can be collected with standard procedures. It's often necessary to design specific procedures and procedure elements. One of these following analysis methods gets applied to determine the strategy:
 - GRAFCET
 - Flowchart
 - Mathematical formulas
-- Operationscheme
-- selection controllers and explanation of controlparameters
+- Operation schemes
+- Selection controllers and explanation of control parameters

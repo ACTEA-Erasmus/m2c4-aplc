@@ -96,9 +96,9 @@ It is possible that the status of the different transtion-conditions the fucntio
 
 ## Example
 The next example shows a GRAFCET for the functionality of a conveyor belt. A box is displaced 5x times from start to end before it stops. After this operation it is necessary to restart the installation.
-
+<p><p>
  ![ Conveyor belt ](../Ad04/Images/ConveyorbeltEx.jpg)
-
+<p><p>
 The GRAFCET has the name FB_PE_BeltFwBw:
 
 -   FB = GRAFCET will be programmed in a function block (FB)
@@ -106,34 +106,39 @@ The GRAFCET has the name FB_PE_BeltFwBw:
 -   BeltFwBw = Conveyor belt forwards & backwards
 
 The conveyor belt is **started and stopped** by means of a start button and a stop button. The functionality of these buttons is not included in the GRAFCET but gets executed by an external start-stop basic circuit. The result of this start-stop basic circuit will be linked with the GRAFCET input variable "iStarted".
-
+<p><p>
 ![ Start Stop exaple ](../Ad04/Images/StartStopEx.jpg)
-
+<p><p>
 Each time the stop button is pressed the conveyor belt will immediatly stop. When the start button is pressed again, the conveyor and GRAFCET continues where they ended.
-
+<p><p>
 ![ Conveyorbelt GRAFCET ](../Ad04/Images/ConveyorbeltGRAFCET.jpg)
-
+<p><p>
 The **photocell** sensors on the conveyor belt detects the presence of the box when the infrared beam between photocell and reflector is interrupted. The status of the photocells (%I) is linked with the GRAFCET input variables "iSenFw" and "iSenBw".
-
+<p><p>
 ![ Processing Sensors ](../Ad04/Images/ProcessingSensors.jpg)
-
+<p><p>
 Controlling the conveyor belt forwards and backwards will be determined by step 1 and step 2 on condition that the installation is started.
-
+<p><p>
 ![ Controlling the conveyorbelt ](../Ad04/Images/UpwardsEx.jpg)
-
-The effective **control of the conveyor belt** happens by the GRAFCET output variables "oBeltFw" and "oBeltBw" which are linked to the contactors (%Q) and the conveyor belt motor (asynchronous motor).
+<p><p>
+The effective **control of the conveyor belt** happens by the GRAFCET output variables "oBeltFw" and "oBeltBw" which are linked to the contactors (%Q) and the conveyor belt motor (asynchronous motor).<p><p>
 
 ![ Processing of contactors ](../Ad04/Images/ProcessingContactors.jpg)
 
-Counting of the **number of backward and forward movements** is controlled by the internal INT variable "i". This variable is an internal function block parameter of the type STATIC. This makes it possible to remember the condition of variable "i" also without voltage (=retentive).
+Counting of the **number of backward and forward movements** is controlled by the internal INT variable "i". This variable is an internal function block parameter of the type STATIC. This makes it possible to remember the condition of variable "i" also without voltage (=retentive). <p><p>
 
- ![ Variable example ](../Ad04/Images/IncreasingVariableEx.jpg)
- Increasing the variable "i" is executed in step 3, after which step 1 gets activated because there is a loop sequence between step 3 and step 1 but only if the value of the variable "i" is less than the decimal value 5. Noticed that the increasing of the variable "i" is only executed on the moment that step 3 is activated (rising edge). This is to prevent wrongly increasing the value of the variable in case step 3 is active longer the one PLC cycle.
+![ Variable example ](../Ad04/Images/IncreasingVariableEx.jpg)
+<p><p>
+Increasing the variable "i" is executed in step 3, after which step 1 gets activated because there is a loop sequence between step 3 and step 1 but only if the value of the variable "i" is less than the decimal value 5. Noticed that the increasing of the variable "i" is only executed on the moment that step 3 is activated (rising edge). This is to prevent wrongly increasing the value of the variable in case step 3 is active longer the one PLC cycle.
 
 In case the box went 5x backwards and forward this will be displayed with a green OK lamp. This lamp (%Q) is connected with the GRAFCET output variable "oOk". Now the installation needs to be stopped with the stop button before the installation can restart.
+<p><p>
 
  ![ Lamp Processing ](../Ad04/Images/ProcessingLamp.jpg) ![ Lamp Processing ](../Ad04/Images/ProcessingLamp2.jpg)
+
+<p><p>
 It is possible to **initialize** the GRAFCET. This is the activation of the initial step (step 0) by using GRAFCET input variable "iInit". All the other active steps get deactivated. The initialising is only activated on the rising edge of "iInit".
+<p><p>
 ![iInit Grafcet Example ](../Ad04/Images/iInitGRAFCET.jpg)
 
 You could choose to initialize the installation in case you press the start and stop button simultaneously for 5 seconds or more.

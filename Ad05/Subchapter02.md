@@ -19,8 +19,8 @@ Switch-off threshold or upper limit = X +  Hysteresis/2.0
  **LD**
  ![Siemends Example](../Ad05/Images/SiemensEx2.jpg)
 
-In case the process value is lower then the  switch-on treshold, will the loop manipulated value turn off.
-As soon as the process value reaches the switch-off treshold, will the loop manipulated value turn off.
+In case the process value is lower then the switch-on threshold, the loop manipulated value will be turn off.
+As soon as the process value reaches the switch-off threshold, the loop manipulated value will be turn off.
 
 **FBD**
 ![Siemends Example](../Ad05/Images/SiemensEx3.jpg)
