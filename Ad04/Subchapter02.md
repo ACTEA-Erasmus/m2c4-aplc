@@ -97,7 +97,9 @@ It is possible that the status of the different transtion-conditions the fucntio
 ## Example
 The next example shows a GRAFCET for the functionality of a conveyor belt. A box is displaced 5x times from start to end before it stops. After this operation it is necessary to restart the installation.
 <p><p>
- ![ Conveyor belt ](../Ad04/Images/ConveyorbeltEx.jpg)
+
+![ Conveyor belt ](../Ad04/Images/ConveyorbeltEx.jpg)
+
 <p><p>
 The GRAFCET has the name FB_PE_BeltFwBw:
 
