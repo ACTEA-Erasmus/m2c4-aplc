@@ -4,8 +4,8 @@
 | **Symbol**| **Description** |
 |:---:      |:---             |
 |![Grafcet Diagram](../Ad04/Images/GRAFCET_Diagram.jpg) | A GRAFCET diagram is a collection of steps, actions, transitions, connections, etc. which form a complete diagram. The collection of all elements is surrounded by a rectangle. |
-|![Input Variables](../Ad04/Images/Input_variables.jpg) | **Input variables** are on the left with an incoming arrow <p><p>__Example__: "Initial step activation" and "installation started" inputs <p> ![Input Variables Example](../Ad04/Images/Input_variablesEx.jpg)                                                                                                    |
-|![Output Variables](../Ad04/Images/Output_variables.jpg)| **Output variables** are located on the right with an outgoing arrow. <p><p>__Example__: "Forward" and "Backward" output signals.<p> ![Output Variables Example](../Ad04/Images/Output_variablesEx.jpg)                                                                                                                        |
+|![Input Variables](../Ad04/Images/Input_Variables.jpg) | **Input variables** are on the left with an incoming arrow <p><p>__Example__: "Initial step activation" and "installation started" inputs <p> ![Input Variables Example](../Ad04/Images/Input_VariablesEx.jpg)                                                                                                    |
+|![Output Variables](../Ad04/Images/Output_Variables.jpg)| **Output variables** are located on the right with an outgoing arrow. <p><p>__Example__: "Forward" and "Backward" output signals.<p> ![Output Variables Example](../Ad04/Images/Output_VariablesEx.jpg)                                                                                                                        |
 |"*" | A **comment** clarifies the working of certain parts and is written between double quotation marks, whereby the asterisk symbol gets replaced by the description.<p><p>  __Example__: Stop a drain  pump if the level is too low. <p> ![Comments](../Ad04/Images/Comments.jpg)                               |
 
 ## Step
@@ -60,7 +60,7 @@ On a certain moment during the sequential proces:
 | ![Action](../Ad04/Images/Action.jpg) | An **action** is assigned to a step and gets illustrated by a rectangle which is connected to that step with a horizontal line.<p><p> It is allowed to use multiple actions in the same step, if each of them have their own rectangle.<p><p> **Allowed multiple actions:** ![Action Example](../Ad04/Images/ActionEx.jpg) |
 | ![Action Label](../Ad04/Images/Action_Label.jpg) | Each action has an action label which clarifies the executed task.<p><p> The label is written in the rectangle where the asterisk symbol is replaced by a variable.<p><p> A **continue action** will have the status of the variable TRUE the moment the corresponding step is active. All other moments the action is FALSE.<p><p>__Example__: The pump action is TRUE on step 4 and FALSE on step 5<p><p> ![Action Label Example](../Ad04/Images/Action_LabelEx.jpg) |
 | ![Memory Action](../Ad04/Images/Memory_Action.jpg) | A **memory action** has a specific value assigned to a variable which gets stored. The asterisk symbol gets replaced by a variable and the \# symbol gets replaced by a (mathematical) value, formula, .... . <p><p>__Example__: The lamp gets activated in step 7, is still activated in step 8 and turns off in step 9. The internal variable "sX" is increased by 1 in step 8.<p><p> ![Memory Action](../Ad04/Images/Memory_ActionEx.jpg) | ![Conditional Action](../Ad04/Images/Conditional_Action.jpg) | A **conditional action** gets the status TRUE in case of the corresponding step being active and the assigned actioncondition is TRUE. <p><p>__Example:__ The disapproval lamp lights up in case the amount of disapproved parts are bigger then 3 in case step 5 is active. ![Conditional Action Example](../Ad04/Images/Conditional_ActionEx.jpg) |
-| ![Conditional Action Example Time Dependent](../Ad04/Images/Conditional_Action_TimeDependant.jpg) | A time dependent **conditional action** is displayed with the / symbols. The action is TRUE after an on-delay and stays TRUE with an off-delay. It is allowed to simplify the condition by removing the off-delay in case this isn't used. <p><p>__Example__: 2s after "iSen" becomes TRUE valve A+ will be activated. 5s after "iSen" become FALSE valve A+ will be deactivated if step 9 is activated.![Conditional Action Example Time Dependent Example](../Ad04/Images/Conditional_Action_TimeDependantEx1.jpg) <p><p>__Example__: 3s after step 4 is activated the OK lamp lights up.<p><p>![Conditional Action Example Time Dependent Example](../Ad04/Images/Conditional_Action_TimeDependantEx2.jpg) |
+| ![Conditional Action Example Time Dependent](../Ad04/Images/Conditional_Action_Timedependant.jpg) | A time dependent **conditional action** is displayed with the / symbols. The action is TRUE after an on-delay and stays TRUE with an off-delay. It is allowed to simplify the condition by removing the off-delay in case this isn't used. <p><p>__Example__: 2s after "iSen" becomes TRUE valve A+ will be activated. 5s after "iSen" become FALSE valve A+ will be deactivated if step 9 is activated.<p><p>![Conditional Action Example Time Dependent Example](../Ad04/Images/Conditional_Action_TimedependantEx1.jpg) <p><p>__Example__: 3s after step 4 is activated the OK lamp lights up.<p><p>![Conditional Action Example Time Dependent Example](../Ad04/Images/Conditional_Action_TimedependantEx2.jpg) |
 | ![Memory Action Activation](../Ad04/Images/Memory_ActionActivation.jpg) | It is possible to run a memory action with the activation of a step. This is indicated with an upwards arrow. <p><p>__Example__: With the activation of step 8 the formula will be ran. <p><p>![Memory Action Activation](../Ad04/Images/Memory_ActionActivationEx.jpg) |  | ![Memory Action Deactivation](../Ad04/Images/Memory_ActionDeactivation.jpg) | It is possible to run a memory action with the deactivation of a step. This will be shown as a downwards arrow. |   |
 Explanation of the used symbols:
 -	oPump = digital output – Activation of a pump
@@ -74,7 +74,7 @@ Explanation of the used symbols:
 | **Symbol** | **Description**  |
 | :---:      | :-----           |
 | ![Sequence](../Ad04/Images/Sequence.jpg) |A **sequence** is a series of steps where each step contains max. one transition-condition.<p><p> The sequence is active if at least one step of the sequence is active. The sequence is inactive when all steps are inactive. |
-| ![ Loop Sequence](../Ad04/Images/LoopSequence.jpg) | A simple **loop sequence** is a sequence of steps whereby each step contains max. one transition-condition and where the last step is connected to the first step. |
+| ![ Loop Sequence](../Ad04/Images/Loopsequence.jpg) | A simple **loop sequence** is a sequence of steps whereby each step contains max. one transition-condition and where the last step is connected to the first step. |
 | ![ Sequence With Source Step](../Ad04/Images/SequenceWithSourceStep.jpg) | A **sequence with source step** has a step without previous transition- condition. <p><p>__Example__: Sequence with a initializing sourcestep.<p><p> ![ Sequence With Source Step Example](../Ad04/Images/SequenceWithSourceStepEx.jpg) |
 | ![ Sequence With End Step](../Ad04/Images/SequenceWithEndStep.jpg) | A **sequence with end step** has a step where there are no transition- conditions after it. An end step (and a source step) are necessary with macros. |
 | ![ Forward Sequence Jump](../Ad04/Images/ForwardSequenceJump.jpg) | It is possible to jump to a step with a **forward sequence skip**.<p><p> Notice that between 2 steps only one transition is allowed. |
@@ -98,7 +98,7 @@ It is possible that the status of the different transtion-conditions the fucntio
 The next example shows a GRAFCET for the functionality of a conveyor belt. A box is displaced 5x times from start to end before it stops. After this operation it is necessary to restart the installation.
 <p><p>
 
-![ Conveyor belt ](../Ad04/Images/ConveyorbeltEx.jpg)
+![ Conveyor belt ](../Ad04/Images/ConveyorBeltEx.jpg)
 
 
 The GRAFCET has the name FB_PE_BeltFwBw:
@@ -109,18 +109,22 @@ The GRAFCET has the name FB_PE_BeltFwBw:
 
 The conveyor belt is **started and stopped** by means of a start button and a stop button. The functionality of these buttons is not included in the GRAFCET but gets executed by an external start-stop basic circuit. The result of this start-stop basic circuit will be linked with the GRAFCET input variable "iStarted".
 <p><p>
+
 ![ Start Stop exaple ](../Ad04/Images/StartStopEx.jpg)
 <p><p>
 Each time the stop button is pressed the conveyor belt will immediatly stop. When the start button is pressed again, the conveyor and GRAFCET continues where they ended.
 <p><p>
+
 ![ Conveyorbelt GRAFCET ](../Ad04/Images/ConveyorbeltGRAFCET.jpg)
 <p><p>
 The **photocell** sensors on the conveyor belt detects the presence of the box when the infrared beam between photocell and reflector is interrupted. The status of the photocells (%I) is linked with the GRAFCET input variables "iSenFw" and "iSenBw".
 <p><p>
+
 ![ Processing Sensors ](../Ad04/Images/ProcessingSensors.jpg)
 <p><p>
 Controlling the conveyor belt forwards and backwards will be determined by step 1 and step 2 on condition that the installation is started.
 <p><p>
+
 ![ Controlling the conveyorbelt ](../Ad04/Images/UpwardsEx.jpg)
 <p><p>
 The effective **control of the conveyor belt** happens by the GRAFCET output variables "oBeltFw" and "oBeltBw" which are linked to the contactors (%Q) and the conveyor belt motor (asynchronous motor).<p><p>
