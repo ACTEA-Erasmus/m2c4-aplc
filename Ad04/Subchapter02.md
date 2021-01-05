@@ -100,7 +100,7 @@ The next example shows a GRAFCET for the functionality of a conveyor belt. A box
 
 ![ Conveyor belt ](../Ad04/Images/ConveyorbeltEx.jpg)
 
-<p><p>
+
 The GRAFCET has the name FB_PE_BeltFwBw:
 
 -   FB = GRAFCET will be programmed in a function block (FB)
