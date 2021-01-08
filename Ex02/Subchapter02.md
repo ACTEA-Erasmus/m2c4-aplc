@@ -1,6 +1,6 @@
 # Study material
 ## Literature
-- Addendum 04 : GRAFCET
+
 - Addendum 06 : Software model following ANSI/ISA-88
 
 ## Equipment
