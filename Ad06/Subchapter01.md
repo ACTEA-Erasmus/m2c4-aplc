@@ -60,8 +60,8 @@ _Examples_
 |--|---|
 | FB_CM_DI_Sensor |  Processing of a digital sensor |
 | FB_CM_AI_Sensor | Processing of an analog sensor |
-| FB_CM_ASM_1R1S	| Controlling an asynchronous motor with 1 speed and 1 rotating direction   |
-| FB_CM_ASM_2R1S	   | Controlling an asynchronous motor with 1 speed and 2 rotating directions    |
+| FB_CM_DOL	| Controlling an asynchronous motor with 1 speed and 1 rotating direction   |
+| FB_CM_DOLRev	   | Controlling an asynchronous motor with 1 speed and 2 rotating directions    |
 | FB_CM_Valve   | Controlling of a (pressurised air) valve  |
 | FB_CM_Relay   | Controlling of a relay |
 | FB_CM_Lamp  | Controlling of a (LED) lamp  |

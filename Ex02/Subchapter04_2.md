@@ -15,7 +15,7 @@ The point of retrieving this archived library is that this has all the control m
 
 **Step 1:**
 
-Copy/download the included .zal file named. Make a new subfolder into automation called "Library". Copy the file into:
+Copy/download the included .zal file named. Make a new subfolder into automation called "Library"(If it doesn't exist already). Copy the file into:
 ```javascript
 Filename : S88 TIA Portal V16.zap16
 Destination : \Documents\Automation\Library

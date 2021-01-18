@@ -1,0 +1,183 @@
+﻿FUNCTION_BLOCK "FB-P_PickAndPlace"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT DB_SPECIFIC
+      iInit : Bool;   // 1=Initialization GRAFCET
+      iEnable : Bool;   // 1=Vrijgave
+      iStarted : Bool;
+      iFtcIn : Bool;
+      iFtcOut : Bool;
+      iX_InAction : Bool;
+      iZ_InAction : Bool;
+      iSenGrab : Bool;
+   END_VAR
+
+   VAR_OUTPUT 
+      oStopIn : Bool;
+      oStopOut : Bool;
+      oX : Bool;
+      oZ : Bool;
+      oGrab : Bool;
+   END_VAR
+
+   VAR 
+      Step : Int;
+      HM_Init : Bool;
+   END_VAR
+
+
+BEGIN
+	// =======================================
+	//  PART 1 INITIALIZATION
+	// =======================================
+	//  Rising edge
+	//  
+	"R_TRIG_DB"(CLK:=#iInit,
+	            Q=>#HM_Init);
+	
+	// Deleting current step and setting value to 0
+	//  End transition-condition & source transition-code
+	IF #HM_Init = TRUE THEN
+	    #Step := 0;
+	END_IF;
+	
+	// =======================================
+	//  PART 2 : TRANSITION-CONDITIONS
+	// =======================================
+	
+	CASE #Step OF
+	    0: //Transition condition from step 0 to step 1
+	        IF #iStarted = TRUE AND
+	            #iFtcIn = TRUE AND
+	            #iFtcOut = FALSE AND
+	            #iX_InAction = FALSE AND
+	            #iZ_InAction = FALSE AND
+	            #iSenGrab = FALSE THEN
+	            #Step := 1;
+	        ELSIF #iStarted = TRUE AND
+	            #iSenGrab = TRUE AND
+	            #iFtcOut = FALSE AND
+	            #iX_InAction = FALSE AND
+	            #iZ_InAction = FALSE THEN
+	            #Step := 5;
+	        END_IF;
+	        ;
+	    1: //Transition condition from step 1 to 2
+	        IF #iStarted = TRUE AND #iZ_InAction = TRUE THEN
+	            #Step := 2;
+	        END_IF;
+	    2: // Transition condition from step 2 to 3
+	        IF #iStarted = TRUE AND #iZ_InAction = FALSE THEN
+	            #Step := 3;
+	        END_IF;
+	    3: // Transition condition from step 3 to 4
+	        IF #iStarted = TRUE AND #iSenGrab = TRUE THEN
+	            #Step := 4;
+	        END_IF;
+	    4: // Transition condition from step 4 to 5
+	        IF #iZ_InAction = TRUE THEN
+	            #Step := 5;
+	        END_IF;
+	    5: // Transition condition from step 5 to 6
+	        IF #iStarted = TRUE AND #iX_InAction = TRUE THEN
+	            #Step := 6;
+	        END_IF;
+	    6: // Transition condition from step 6 to 7
+	        IF #iStarted = TRUE AND #iX_InAction = FALSE THEN
+	            #Step := 7;
+	        END_IF;
+	    7: // Transition condition from step 7 to 8
+	        IF #iStarted = TRUE AND #iZ_InAction = TRUE THEN
+	            #Step := 8;
+	        END_IF;
+	    8: // Transition condition from step 8 to 9
+	        IF #iStarted = true AND #iZ_InAction = FALSE THEN
+	            #Step := 9;
+	        END_IF;
+	    9: // Transition condition from step 9 to 10
+	        IF #iStarted = TRUE AND #iFtcOut = TRUE THEN
+	            #Step := 10;
+	        END_IF;
+	    10: // Transition condition from step 10 to 11
+	        IF #iStarted = TRUE AND #iZ_InAction = TRUE AND #iSenGrab = FALSE THEN
+	            #Step := 11;
+	        END_IF;
+	    11: // Transition condition from step 11 to 0
+	        IF #iX_InAction = TRUE THEN
+	            #Step := 0;
+	        END_IF;
+	END_CASE;
+	
+	
+	// =======================================
+	//  PART 3 : ACTIONS
+	// =======================================
+	
+	IF #Step = 0 AND #iStarted = TRUE THEN
+	    #oStopIn := FALSE;
+	    #oStopOut := FALSE;
+	END_IF;
+	
+	IF #Step = 1 THEN
+	    #oStopIn := TRUE;
+	    #oZ := TRUE;
+	END_IF; 
+	
+	IF #Step = 2 THEN
+	    #oZ := TRUE;
+	END_IF;
+	
+	IF #Step = 3 THEN
+	    #oZ := TRUE;
+	    #oGrab := TRUE;
+	END_IF;
+	
+	IF #Step = 4 THEN
+	    #oZ := FALSE;
+	    #oStopIn := FALSE;
+	END_IF;
+	
+	IF #Step = 5THEN
+	    #oX := TRUE;
+	END_IF;
+	
+	IF #Step = 6 THEN
+	    #oX := TRUE;
+	END_IF;
+	
+	IF #Step = 7 THEN
+	    #oStopOut := TRUE;
+	    #oZ := TRUE;
+	    #oX := TRUE;
+	END_IF;
+	
+	IF #Step = 8 THEN
+	    #oX := TRUE;
+	    #oZ := TRUE;
+	END_IF;
+	
+	IF #Step = 9 THEN
+	    #oX := TRUE;
+	    #oZ := TRUE;
+	    #oGrab := FALSE;
+	END_IF;
+	
+	IF #Step = 10 THEN
+	    #oX := TRUE;
+	    #oZ := FALSE;
+	    #oStopOut := FALSE;
+	END_IF;
+	
+	IF #Step = 11 THEN
+	    #oX := FALSE;
+	END_IF;
+	
+	
+	   
+	
+	        
+	            
+	        
+	        
+END_FUNCTION_BLOCK
+

@@ -13,13 +13,13 @@ _____________________________________
 
 **Step 1:** Download/copy FB-PE_PickAndPlace.scl and place it under
 ```javascript
-Filename : FB-PE_PickAndPlace.scl
+Filename : FB-P_PickAndPlace.scl
 Destination : \Documents\Automation
 ```
 **Step 2:** Search for "External source files" in the project tree and click on "Add new external file" <p>
 ![External Source File in TIA](../Ex02/Images/ExternalSource.jpg)
 
-**Step 3:** In the file browser select FB-PE_PickAndPlace.scl and open it <p>
+**Step 3:** In the file browser select FB-P_PickAndPlace.scl and open it <p>
 
 ![External Source File in windows explorer](../Ex02/Images/SourceBrowser.jpg)
 
@@ -30,7 +30,7 @@ Destination : \Documents\Automation
 **Step 5:**  Add both the Functions into *Function block* FC_EM_PnP [FC1]:
 
 ```javascript
-FB-PE_PickAndPlace into a new network
+FB-P_PickAndPlace into a new network
 ```
 
 **Step 5:** Link the right tags with the block that has been generated

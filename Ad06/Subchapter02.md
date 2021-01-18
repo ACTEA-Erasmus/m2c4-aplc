@@ -45,6 +45,6 @@ Notice that the operation scheme is drafted for analog sensors that work followi
 The end result is a **"Function building block"** which looks like the following images.
 
 | Text | Image |
-| --|---|--
+| :---: | :---: |
 | FDB example  | ![TIA image of control module FB_CM_AI_Sensor ](../Ad06/Images/TIA-FB_CM_AI_Sensor.jpg)  |
 | More simple example  | ![Simple image of control module FB_CM_AI_Sensor ](../Ad06/Images/SimpleFB_CM_AI_Sensor.jpg)  |
