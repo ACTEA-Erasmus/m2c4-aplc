@@ -1,4 +1,10 @@
-# GRAFCET
+# The Pick and Place Project
+_____________________________________
+-   The [first goal](../Ex02/Subchapter03.md) is to program a GRAFCET
+-   The [second goal](../Ex02/Subchapter04.md) is to program a Flowchart
+-   The [second goal](../Ex02/Subchapter05.md) is to deliver a working program
+
+Back to the [project scope](../Ex02/Subchapter03.md)
 
 ## Goal 1: To program a GRAFCET
 _____________________________________
@@ -37,7 +43,3 @@ Rename the block to FB-P_PickAndPlace.
 
 Program the following GRAFCET into FB-P_PickAndPlace.
 ![GRAFCET](../Ex03/Images/GRAFCET.jpg)
-
-**Step 7:**
-
-Save and download the program to the PLC. Test if the GRAFCET works or not.

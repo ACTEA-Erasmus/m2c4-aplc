@@ -1,7 +1,7 @@
 # The Crane Project
 _____________________________________
 -   The [first goal](../Ex01/Subchapter03.md) is to add ProfiNET based devices
--   The [second goal](../Ex01/Subchapter04_.md) is to add Profibus based devices
+-   The [second goal](../Ex01/Subchapter04.md) is to add Profibus based devices
 -   The [third goal](../Ex01/Subchapter05.md) is to add Drives
 
 Back to the [project scope](../Ex01/Subchapter03.md)
@@ -54,7 +54,7 @@ Siemens ET200S island 1  (pumps)
 
 **Step 6:** Install the selected GSD files:
 
-![Installing GSD files](../Ex01/Images/TIA-GSDinstall.jpg)
+![Installing GSD files](../Ex01/Images/Tia-GSDinstall.jpg)
 
 **Step 7:** Import the correct devices from the "Hardware catalog" into "Network view"
 

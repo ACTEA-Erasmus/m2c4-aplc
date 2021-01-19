@@ -1,10 +1,10 @@
 # The Pick and Place Project
 _____________________________________
--   The [first goal](../Ex02/Subchapter04_01.md) is to retrieve an archived program.
--   The [second goal](../Ex02/Subchapter04_02.md) is to retrieve an archived library
--   The [third goal](../Ex02/Subchapter04_03.md) is to program the S88 following the S88 design
--   The [fourth goal](../Ex02/Subchapter04_04.md) is to import a exernal source file
--   The [last goal](../Ex02/Subchapter04_04.md) is to deliver a working project
+-   The [first goal](../Ex02/Subchapter04_1.md) is to retrieve an archived program.
+-   The [second goal](../Ex02/Subchapter04_2.md) is to retrieve an archived library
+-   The [third goal](../Ex02/Subchapter04_3.md) is to program the S88 following the S88 design
+-   The [fourth goal](../Ex02/Subchapter04_4.md) is to import a exernal source file
+-   The [last goal](../Ex02/Subchapter04_5.md) is to deliver a working project
 
 Back to the [project scope](../Ex02/Subchapter04.md)
 
@@ -59,6 +59,6 @@ mSysIlnit	- BOOL - %M60.5 - Flag initilization
 
 ![Control module DI Sensor](../Ex02/Images/DI_Sensor.jpg)
 
-**Step 4:** Program the remaining control modules like the following S88 design. *For each control modul or procedure element you need to have a seperate network* <p>
+**Step 4:** Program the remaining control modules like the following S88 design. *For each control module or procedure element you need to have a seperate network* <p>
 
 ![S88 Pick and Place](../Ex02/Images/S88PnP.jpg "S88 Pick and Place")
