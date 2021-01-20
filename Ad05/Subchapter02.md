@@ -1,5 +1,5 @@
 ## On-off circuit
-The **on-off circuit**[^1] gets used to switch a control output Y [BOOL] on or off in function of a measured value X [REAL] and a set value W [REAL]. The on-off switch ensures that the actuator does not switch on and off too often by using 2 threshold values, namely:
+The **on-off circuit** gets used to switch a control output Y [BOOL] on or off in function of a measured value X [REAL] and a set value W [REAL]. The on-off switch ensures that the actuator does not switch on and off too often by using 2 threshold values, namely:
 - The switch-on threshold value (lower limit)
 - The switch-off threshold value (upper limit)
 

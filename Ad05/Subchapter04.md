@@ -1,4 +1,4 @@
-## Controller ciruit structuring
+## Controller circuit structuring
 
 ### Singular control circuit
 
