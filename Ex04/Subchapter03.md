@@ -1,40 +1,26 @@
-# ON-OFF controllers
+# The Watertank Project
+_____________________________________
+-   The [first goal](../Ex04/Subchapter03_1.md) is to program an ON/OFF controller
+-   The [second goal](../Ex04/Subchapter04.md) is to program a PID controller
+-   The [third goal](../Ex04/Subchapter05.md) is to deliver a working program
 
-## Goal 1 to program ON-OFF controllers
-**Step 1:** Open project Ex7-Watertank
-**Step 2:** Add next *Functions* (FC) into PLC_1 in the FBD program language:
-```javascript
-FC_ON/OFF
-```
-**Step 3:** Add the Function into *Organization block* Main [OB1]:
-```javascript
-FC_ON/OFF into network 3
-```
-**Step 4 :** Create the necessary PLC Tags:
-```javascript
-//Flags
-ID_Y - BOOL - %M 50.0 - SetReset for the loop manipulated value
-mY - BOOL - %M50.1 - Loop manipulated value
-mX - REAL - %MD54 - Processvalue
-mW - REAL - %MD58 - Setpoint
-mUpperlimit - REAL- %MD62 - Upper limit of the controller
-mUnderlimit - REAL - %MD66 - Under limit of the controller
-mHyst - REAL - %MD70 - Hysteresis value
-mHystDiv2 - REAL - %MD74 - Hysteresis value divided by 2
-```
-**Step 5 :** Program the ON-OFF controller:
+Back to the [project scope](../Ex04/Subchapter03.md)
 
-![Portal view](../Ex04/Images/ON-OFF.jpg "ON-OFF controller")
+## Scope
 
-**Step 6 :** Program the threshold:
+Automate controlling the level in **watertank T1**. that is equipped with
+- An analog level sensor
+- An analog flow sensor on the outlet
+- An analog inlet valve
+- An analog outlet valve
 
-![Portal view](../Ex04/Images/Threshold.jpg "Threshold")
+![Procedure element ON OFF](../Ex04/Images/scope.jpg)
 
-**Step 7 :** Change the existing code, delete the level control network:
+Use the buttons, lamps, potentiometer and analog indicator on the ASTI PLC board to control the watertank.
 
-![Portal view](../Ex04/Images/Changes.jpg "Changes")
-![Portal view](../Ex04/Images/Changes1.jpg "Changes")
-
-**Step 8 :** Hysteresis
-
-**Step 9 :** Download the software and test the
+## Characteristics
+- Height: 3 m
+- Diameter: 2 m
+- Discharge pipe radius: 0.125 m
+- Input flow: 0.25 m³/s
+- Output flow: 0.3543 m³/s

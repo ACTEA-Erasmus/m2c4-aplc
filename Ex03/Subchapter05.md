@@ -2,7 +2,7 @@
 _____________________________________
 -   The [first goal](../Ex02/Subchapter03.md) is to program a GRAFCET
 -   The [second goal](../Ex02/Subchapter04.md) is to program a Flowchart
--   The [second goal](../Ex02/Subchapter05.md) is to deliver a working project
+-   The [third goal](../Ex02/Subchapter05.md) is to deliver a working project
 
 Back to the [project scope](../Ex02/Subchapter03.md)
 
