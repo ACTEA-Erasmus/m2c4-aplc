@@ -40,16 +40,3 @@ _____________________________________
 Filename : Level_Control.factoryio
 Filelocation : \Documents\Factory IO\My Scenes
 ```
-**Step 10:** Compile the hardware with a rebuild all command
-
-**Step 11:** Compile the software with a rebuild all command
-
-**Step 12:** Download hardware and software to the PLC_1
-
-**Step 13:** Test the Project
-
-__Testing__
-- Try changing the controller structure and see what it does
-- Try changing Proportian gain and see what it does
-- Try changing the sampling time of the PID algorithm
-- Play around with these values and see what they do

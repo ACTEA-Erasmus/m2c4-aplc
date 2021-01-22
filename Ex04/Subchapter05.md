@@ -15,7 +15,4 @@ _____________________________________
 
 **Step 3:** Download hardware and software to the PLC_1
 
-**Step 4:** Test the Project
-
-__Normal functionallity__
-- The PID will slowly increase(or decrease) when setpoint changes and ultimately stop at the setpoint
+**Step 4:** Go to [Exercise 5](../Ex05/Subchapter03.md) to test the program on a HMI screen
