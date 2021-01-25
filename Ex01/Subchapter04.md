@@ -19,4 +19,8 @@ _____________________________________
 
 **Step 2:** Link them to the PLC
 
+**Overview of the network** <P>
+
+![Networkview](../Ex01/Images/Networkview.jpg)
+
 **Step 3:** Configure the imported devices to the right measurement type

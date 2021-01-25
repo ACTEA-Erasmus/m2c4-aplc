@@ -10,6 +10,7 @@ Back to the [project scope](../Ex04/Subchapter03.md)
 _____________________________________
 
 **Step 1:** Open project Ex7-Watertank
+[The Watertank Project](./Ex04/Documents/Ex7-Watertank_V16.zap16)
 
 **Step 2:** Delete network 4 : Level control
 
@@ -36,6 +37,7 @@ _____________________________________
 ![PID paramaters](../Ex04/Images/end.jpg)
 
 **Step 9 :** Open the FactoryIO scene called:
+[Level_Control.factoryio](./Ex04/Documents/Level_Control.factoryio)
 ```javascript
 Filename : Level_Control.factoryio
 Filelocation : \Documents\Factory IO\My Scenes

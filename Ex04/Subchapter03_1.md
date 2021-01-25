@@ -11,19 +11,24 @@ _____________________________________
 
 **Step 1:** Open project Ex7-Watertank
 
+[The Watertank Project](./Ex04/Documents/Ex7-Watertank_V16.zap16)
+
 **Step 2:** Open the *Function* FC_T1[FC2]
 
-**Step 3:** Delete the content within network 4 : Level control
+**Step 3:** Delete the content within network 4 : Level control <P>
 
 **Step 4:** Open the library "S88 TIA Portal V16"
 
-**Step 5:** Copy "FB_PE_ON-OFF" into the *Function* FC_T1[FC2] network 4 :
+**Step 5:** Copy "FB_PE_ON-OFF" into the *Function* FC_T1[FC2] network 4 : <P>
+
 ![Global library](../Ex04/Images/ON-OFF.jpg)
 
-**Step 6:** Link the right in- & outputs of the ON-OFF controller.
+**Step 6:** Link the right in- & outputs of the ON-OFF controller.<P>
 
-![Procedure element ON OFF](../Ex04/Images/changes.jpg)
+![Procedure element ON OFF](../Ex04/Images/Changes.jpg)
+
 **Step 8 :** Open the FactoryIO scene called:
+[Level_Control.factoryio](./Ex04/Documents/Level_Control.factoryio)
 ```javascript
 Filename : Level_Control.factoryio
 Filelocation : \Documents\Factory IO\My Scenes

@@ -22,7 +22,7 @@ Destination : \Documents\Automation\Library
 ```
 
 **Step 2:** To select the library go to "Options > Global libraries > Open library..." <p>
-![FactoryIO scene](../Ex02/Images/ImportLibrary.jpg)
+![Import Library](../Ex02/Images/ImportLibrary.jpg)
 
 **Step 3:** Open in the follwing screen the saved library
 
@@ -30,12 +30,12 @@ Destination : \Documents\Automation\Library
 Files of type : Compressed Libraries
 Destination : \Documents\Automation\Library
 ```
-![FactoryIO scene](../Ex02/Images/LibraryBrowser.jpg)
+![Library Browser](../Ex02/Images/LibraryBrowser.jpg)
 
 **Step 4:**  Once selected you'll have to select the target destination. Select "Documents\Automation\Library" in our case. <p>
 
-![FactoryIO scene](../Ex02/Images/LibraryDestination.jpg)
+![Library Destination](../Ex02/Images/LibraryDestination.jpg)
 
 **Step 5:** To make sure you have got the library opened check the right bottom of TIA Portal in "Global Libraries". This is done by clicking on libraries on the right side of tia portal. <p>
 
-![FactoryIO scene](../Ex02/Images/TiaLibrary.jpg)
+![Tia Library](../Ex02/Images/TiaLibrary.jpg)

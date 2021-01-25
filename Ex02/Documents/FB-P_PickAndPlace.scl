@@ -166,13 +166,13 @@ BEGIN
 	    #oX := TRUE;
 	    #oZ := FALSE;
 	    #oStopOut := FALSE;
+	    
 	END_IF;
 	
 	IF #Step = 11 THEN
 	    #oX := FALSE;
+	    #oStopOut := FALSE;
 	END_IF;
-	
-	
 	   
 	
 	        
