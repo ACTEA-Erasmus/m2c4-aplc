@@ -6,6 +6,20 @@ _____________________________________
 
 Back to the [project scope](../Ex01/Subchapter03.md)
 
+
+## Scope
+
+Make a networkconfiguration of a crane that has the follwing:
+
+- 5 Digital sensors
+- 3 Motorstarters
+- 2 Analog sensors
+- A digital levelsensor
+- 2 Profibus Devices
+- 1 Drive
+
+![Crane](../Ex01/Images/Crane.jpg)
+
 ## Goal 1: To add ProfiNET based devices
 _____________________________________
 # ProfiNET

@@ -21,6 +21,6 @@ _____________________________________
 
 **Overview of the network** <P>
 
-![Networkview](../Ex01/Images/Networkview.jpg)
+![Networkview](../Ex01/Images/Networkprofibus.jpg)
 
 **Step 3:** Configure the imported devices to the right measurement type
