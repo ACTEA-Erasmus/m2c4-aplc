@@ -6,6 +6,23 @@ _____________________________________
 
 Back to the [project scope](../Ex03/Subchapter03.md)
 
+## Scope
+
+Automate the process of picking up packages and placing them on a different conveyor. This will be equipped with the following:
+
+- 2 Digital photocells
+- 2 Digital motor circuit breakers
+- 2 Digital preasurised air valves
+- 2 Digital contactors to control the conveyorbelt motors
+- A digital vacuum grabber
+
+![FactoryIO scene](../Ex02/Images/FactoryIOScene.jpg)
+
+Use the buttons on the PLC to control the motor circuit breakers.
+Use the control board in FactoryIO to start and stop the machine.
+
+
+
 ## Goal 1: To program a GRAFCET
 _____________________________________
 

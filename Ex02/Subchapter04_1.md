@@ -21,14 +21,14 @@ Destination : \Documents\Automation
 ```
 
 **Step 2:** Start TIA Portal and click on "Open existing project" <p>
-![FactoryIO scene](../Ex02/Images/TiaPortalProjectOpen.jpg)
+![Project open](../Ex02/Images/TiaPortalProjectOpen.jpg)
 
 **Step 3:** Click on browse and search for the right archived file
 
 [Pick & Place TIA Portal project](./Ex02/Documents/Ex2-PickAndPlace.zap16)
 
 **Step 4:** Once selected you'll have to select the target destination. Select Documents\Automation in our case. <p>
-![Project succesfully opened](../Ex02/Images/FileBrowser.jpg)
+![FileBrowser](../Ex02/Images/FileBrowser.jpg)
 
 **Step 5:** Once this screen pops up you have succesfully opened the archive. Click on "Project view" to continue the exercise <p>
 ![Project succesfully opened](../Ex02/Images/TiaPortalProjectView.jpg)
