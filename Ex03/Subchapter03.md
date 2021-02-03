@@ -1,10 +1,10 @@
 # The Pick and Place Project
 _____________________________________
--   The [first goal](../Ex02/Subchapter03.md) is to program a GRAFCET
--   The [second goal](../Ex02/Subchapter04.md) is to program a Flowchart
--   The [second goal](../Ex02/Subchapter05.md) is to deliver a working program
+-   The [first goal](../Ex03/Subchapter03.md) is to program a GRAFCET
+-   The [second goal](../Ex03/Subchapter04.md) is to program a Flowchart
+-   The [third goal](../Ex03/Subchapter05.md) is to deliver a working program
 
-Back to the [project scope](../Ex02/Subchapter03.md)
+Back to the [project scope](../Ex03/Subchapter03.md)
 
 ## Goal 1: To program a GRAFCET
 _____________________________________
