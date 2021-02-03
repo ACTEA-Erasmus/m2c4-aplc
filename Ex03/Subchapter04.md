@@ -14,7 +14,7 @@ _____________________________________
 
 ![Box](../Ex03/Images/square.jpg)
 
-**Decision:** Diamond symbol represents a decision point. Decision based operations such as yes/no question or true/false are indicated by diamond in flowchart. 
+**Decision:** Diamond symbol represents a decision point. Decision based operations such as yes/no question or true/false are indicated by diamond in flowchart.
 
 ![Diamond](../Ex03/Images/diamond.jpg)
 
