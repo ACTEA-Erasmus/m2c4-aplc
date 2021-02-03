@@ -11,7 +11,9 @@ Back to the [project scope](../Ex02/Subchapter04.md)
 ## Goal 4: To import a external source file
 _____________________________________
 
-**Step 1:** Download/copy FB-PE_PickAndPlace.scl and place it under
+**Step 1:** Download/copy FB-P_PickAndPlace.scl and place it under
+
+[Pick & Place TIA Portal project](./Ex02/Documents/FB-P_PickAndPlace.scl)
 ```javascript
 Filename : FB-P_PickAndPlace.scl
 Destination : \Documents\Automation

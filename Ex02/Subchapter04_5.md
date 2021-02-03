@@ -13,6 +13,8 @@ _____________________________________
 
 **Step 1:** Open the FactoryIO scene called "Pick and Place" (it's one of the default scene's)
 
+[FactoryIO Scene](./Ex02/Documents/Pick&Place.factoryio)
+
 **Step 2:** Configure the driver to the right PLC
 
 **Step 3:** Open up the configuration

@@ -1,39 +1,31 @@
-# The Pick and Place Project
+# Introduction into flowchart
 _____________________________________
--   The [first goal](../Ex03/Subchapter03.md) is to program a GRAFCET
--   The [second goal](../Ex03/Subchapter04.md) is to program a Flowchart
--   The [third goal](../Ex03/Subchapter05.md) is to deliver a working project
+# Basic Symbols used in Flowchart Designs
 
-Back to the [project scope](../Ex03/Subchapter03.md)
+**Terminal:** The oval symbol indicates Start, Stop and Halt in a program’s logic flow. A pause/halt is generally used in a program logic under some error conditions. Terminal is the first and last symbols in the flowchart.<P>
 
-## Goal 2: To program a Flowchart
-_____________________________________
+![Oval](../Ex03/Images/oval.jpg)
 
-**Step 1:**
-Create the necessary PLC Tags:
-```javascript
-//Outputs
-Counter - DWORD - %QD100 - Amount of processed packages
+**Input/Output:** A parallelogram denotes any function of input/output type. Program instructions that take input from input devices and display output on output devices are indicated with parallelogram in a flowchart.
 
-//Flags
-mA003 - BOOL - %M50.3 - Motor circuit breaker coneyor belt exit alarm
-mCounter - DWORD - %QD100 - Flag amount of processed packages
-```
+![Parallelogram](../Ex03/Images/parallel.jpg)
 
-**Step 2:**
-Create the Function Block FB_Counter[FB1] in the language SCL
+**Processing:** A box represents arithmetic instructions. All arithmetic processes such as adding, subtracting, multiplication and division are indicated by action or process symbol.
 
-**Step 3:**
-Create the necessary block tags:
-```javascript
-//Static
-mSen - BOOL - Rising edge detection for sensor on the output conveyor
-```
-**Step 4:**
-Add a rise edge direction for "mSen_TO_B2"
-*Remark "mSen_TO_B2" will be the input and "mSen" will be the output*
+![Box](../Ex03/Images/square.jpg)
 
-**Step 5:**
-Create the following Flowcharts
-![Flowchart Counter](../Ex03/Images/FlowchartCounter.jpg)
-![Flowchart Alarm](../Ex03/Images/FlowchartAlarm.jpg)
+**Decision:** Diamond symbol represents a decision point. Decision based operations such as yes/no question or true/false are indicated by diamond in flowchart.
+
+![Diamond](../Ex03/Images/diamond.jpg)
+
+**Case example:**
+| **Flowchart** | **TIA code** |
+| :---: | :---: |
+| ![Case example](../Ex03/Images/examplecase.jpg)  | ![Case example](../Ex03/Images/casetia.jpg)  |
+
+
+
+**If example:**
+| **Flowchart** | **TIA code** |
+| :---: | :---: |
+| ![IF example](../Ex03/Images/exampleif.jpg)  | ![IF example](../Ex03/Images/iftia.jpg)  |
