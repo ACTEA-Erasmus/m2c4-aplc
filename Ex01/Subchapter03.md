@@ -9,7 +9,7 @@ Back to the [project scope](../Ex01/Subchapter03.md)
 
 ## Scope
 
-Make a networkconfiguration of a crane that has the follwing:
+Make a networkconfiguration of a crane that has the following:
 
 - 5 Digital sensors
 - 3 Motorstarters
