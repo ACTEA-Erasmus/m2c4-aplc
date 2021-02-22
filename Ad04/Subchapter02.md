@@ -1,4 +1,4 @@
-# Designing of a GRAFCET in IEC 60848
+# GRAFCET according IEC 60848
 ## GRAFCET diagram
 
 | **Symbol**| **Description** |

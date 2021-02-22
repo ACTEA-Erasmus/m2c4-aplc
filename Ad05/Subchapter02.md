@@ -5,16 +5,12 @@ The **on-off circuit** gets used to switch a control output Y [BOOL] on or off i
 
 ![ON_OFF](../Ad05/Images/ON-OFFeX.jpg)
 
-The difference between the switch-on and switch-off threshold values becomes the so
-called hysteresis. The following mathematical formulas apply:
-
-Switch-on threshold or lower limit = X -  Hysteresis/2.0
-Switch-off threshold or upper limit = X +  Hysteresis/2.0
+The difference between the switch-on and switch-off threshold values are called the hysteresis. The following mathematical formulas apply:
+- Switch-on threshold or lower limit = X -  Hysteresis / 2.0
+- Switch-off threshold or upper limit = X +  Hysteresis / 2.0
 
  **FBD**
  ![Siemens Example](../Ad05/Images/SiemensEx1.jpg)
-
-
 
  **LD**
  ![Siemends Example](../Ad05/Images/SiemensEx2.jpg)
@@ -27,7 +23,6 @@ As soon as the process value reaches the switch-off threshold, the loop manipula
 
 **LD**
 ![Siemends Example](../Ad05/Images/SiemensEx4.jpg)
-
 
  **Example on-off switch - Heating in a home**
   Homes are often equipped with a thermostat to measure and control the temperature in a room.
