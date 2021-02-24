@@ -11,7 +11,7 @@ _____________________________________
 
 **Step 1:** Open project Ex7-Watertank
 
-[The Watertank Project](./Ex04/Documents/Ex7-Watertank_V16.zap16)
+[The Watertank Project](Ex04/Documents/Ex7-Watertank_V16.zap16)
 
 **Step 2:** Open the *Function* FC_T1[FC2]
 
