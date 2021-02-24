@@ -9,11 +9,10 @@ Back to the [project scope](Ex01/Subchapter03.md)
 
 ## Scope
 
-Make a networkconfiguration of a crane that has the following:
-
-- 5 Digital sensors
-- 3 Motorstarters
-- 2 Analog sensors
+Make a network configuration of a crane that has the following:
+- 5 digital sensors
+- 3 motorstarters
+- 2 analog sensors
 - A digital levelsensor
 - 2 Profibus Devices
 - 1 Drive

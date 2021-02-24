@@ -12,6 +12,8 @@ Equipment modules are preferably programmed in "Functions", the TAG-naming gets 
 | FC_T10_EM_Level | Includes programming of the level controlling of tank T10 |
 | FC_EM_X_Axis | Includes programming of the X axis |
 
+Reamrk: The physical part contains beside equipment modules also control modules.
+
 # Procedure part
 ## Procedure
 

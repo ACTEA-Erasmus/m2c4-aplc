@@ -1,4 +1,4 @@
-## Characteristics and defenitions
+## Characteristics and definitions
 
 Controllers are used mainly to control continuing processes. Also non continuing can be controlled. This way a GRAFCET can run t he controller as action in a determined step. We use analog sensors to control analog or digital actuators.
 

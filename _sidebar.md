@@ -10,7 +10,6 @@
 * Excersise 02: ANSI/ISA S88
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
-  * [ANSI/ISA S88 theory](Ex02/Subchapter03.md)
   * [The pick & place project](Ex02/Subchapter04.md)
 * Excersise 03: Sequential controllers
   * [Learning goals](Ex03/Subchapter01.md)
@@ -30,7 +29,18 @@
   * [Electrical drawings](Ad01/Subchapter01.md)
 * Addendum 02: TAG naming convention
   * [TAG naming convention](Ad02/Subchapter01.md)
-* Addendum 03: Manuals
+* Addendum 03: Siemens TIA Portal
   * [HMI programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
 * Addendum 04 : GRAFCET
   * [General](Ad04/Subchapter01.md)
+* Addendum 05 : Controllers
+  * [Characteristics and definitions](Ad05/Subchapter01.md)
+  * [On-off circuit](Ad05/Subchapter02.md)
+  * [PID controller](Ad05/Subchapter03.md)
+  * [Controller circuit structuring](Ad05/Subchapter04.md)
+* Addendum 06 : Software model following ANSI/ISA-88
+  * [The different parts](Ad06/Subchapter01.md)
+  * [Sensors](Ad06/Subchapter02.md)
+  * [Asynchronous motors](Ad06/Subchapter03.md)
+  * [Valves](Ad06/Subchapter04.md)
+  * [Equipments & procedures](Ad06/Subchapter05.md)
