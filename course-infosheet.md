@@ -27,9 +27,9 @@ It continuous with an introduction into industrial network devices on Profibus &
 
 It ends with the engineering of software where students learn to apply software analyses such as GRAFCET and FLOWCHART.
 
-The course continuous with hands-on workshops where students apply their knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an enviroment that simulates the workfield.
+The course continuous with hands-on workshops where students apply their knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an environment that simulates the work field.
 
-At the end of this course a student is able to analyse a complex automation problem and to work out a solution.
+At the end of this course a student is able to analyze a complex automation problem and to work out a solution.
 
 ## Activities
 -   Theory classes: 12 x 1h
