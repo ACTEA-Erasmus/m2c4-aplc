@@ -1,8 +1,9 @@
 # Study material
 _____________________________________
 ## Literature
-- Addendum 03 HMI
-- Addendum 05 Controllers
+- Addendum 2 : TAG naming convention
+- Addendum 3 : HMI
+- Addendum 5 : Controllers
 
 ## Equipment
 > **1** Engineering station

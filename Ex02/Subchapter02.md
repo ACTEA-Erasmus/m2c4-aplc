@@ -1,7 +1,8 @@
 # Study material
 _____________________________________
 ## Literature
-- Addendum 06 : Software model following ANSI/ISA-88
+- Addendum 2 : TAG naming convention
+- Addendum 6 : Software model following ANSI/ISA S88
 
 ## Equipment
 > **1** Engineering station

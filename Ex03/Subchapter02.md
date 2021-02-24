@@ -1,8 +1,9 @@
 # Study material
 _____________________________________
 ## Literature
-- Addendum 04 : Grafcet
-- [Introduction to Flowchart](../Ex03/Subchapter04.md)
+- Addendum 2: TAG naming convention
+- Addendum 04 : GRAFCET
+- [Introduction to Flowchart](Ex03/Subchapter04.md)
 
 ## Equipment
 > **1** Engineering station
