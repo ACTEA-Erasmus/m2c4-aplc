@@ -1,34 +1,33 @@
-# Course infosheet
-| ![ACTEA_logo](/ACTEA_logo.jpg) | **Module 2 Course 4** <br /> **Advanced PLC & Motion Programming** |
-| :----: | :----: |
+![ACTEA_logo](/ACTEA_logo.jpg)
 
-Study load: 5 credits
-Total studytime: 125 hours
-
-EU-Partner(s): AP University College
-TC-Partner(s):
+# Advanced PLC Programming - Course infosheet
+____________________________________________________________
+* Study load: 5 credits
+* Total studytime: 125 hours
+* EU-Partner(s): AP University College
+* TC-Partner(s): Mekelle University, Jimma University, Ardhi University, Mbarara University of Science and Technology, Muni University
 
 ## Prerequisites
 * Participated in Basic PLC Programming
 
-## Study materialsS
-* Course
-* Software – SIEMENS TIA Portal Professional
+## Study materials
+* This course with its addendums
+* Software – SIEMENS TIA Portal Professional V16
 
 ## Technical requirements / lab equipment
-* Hardware – SIEMENS S7-1200 CPU on didactical panel
-* Virtual automation enviroment – Realgames Factory IO
+* Hardware - ASTI PLC Training panel with Siemens S7-1200 CPU
+* Hardware - SIEMENS S7-1200 download cable
+* Software - Siemens TIA Portal V16
+* Software - Real Games - Factory IO
 
-## Leaning outcomes
-The theoretical part of the course starts with the advanced TIA Portal
-instructions and solutions with the focus on analogue signal processing and datalogging.
+## Learning outcomes
+The theoretical part of the course starts with the advanced TIA Portal instructions and solutions with focus on analogue signal processing and datalogging.
 
-It continuous with an introduction into industrial network devices on Profibus & ProfiNET with the focus on HMI, IO devices, drives and PLC-PLC communication.
+It continuous with an introduction into industrial network devices on Profibus & ProfiNET with focus on HMI, IO devices, drives and PLC-PLC communication.
 
 It ends with the engineering of software where students learn to apply software analyses such as GRAFCET and FLOWCHART.
 
-The course continuous with hands-on workshops where students apply their
-knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an enviroment that simulates the workfield.
+The course continuous with hands-on workshops where students apply their knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an enviroment that simulates the workfield.
 
 At the end of this course a student is able to analyse a complex automation problem and to work out a solution.
 
@@ -47,11 +46,10 @@ At the end of this course a student is able to analyse a complex automation prob
 -   Hands-off exercises
 
 ***Workshop***
--   Hands-on exercises:
-    -   Industrial networks (IO Devices, PLC-PLC communication)
-    -   HMI
-    -   Automation of a continous process
-    -   Automation of a sequential process
+-   Industrial networks (IO Devices, PLC-PLC communication)
+-   HMI
+-   Automation of a continous process
+-   Automation of a sequential process
 
 ## Evalution
 ***First exam chance***
