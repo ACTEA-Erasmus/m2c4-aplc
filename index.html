@@ -13,11 +13,17 @@
   <script>
     window.$docsify = {
       name: 'Advanced PLC & Motion Control',
-      autoHeader: true,
       logo: '/ACTEA_logo.jpg',
       repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
+      search: {
+      maxAge: 86400000,
+      paths: 'auto',
+      placeholder: 'Search it',
+      noData: 'unsuccessful ',
+      depth: '6'
+      },
       basePath:'https://actea-erasmus.github.io/m2c4-aplc'
     }
   </script>
