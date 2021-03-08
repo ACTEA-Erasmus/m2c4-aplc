@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Study material
+_____________________________________
 ## Literature
 - Addendum 2 : TAG naming convention
 - Addendum 5 : Controllers

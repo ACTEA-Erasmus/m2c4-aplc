@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Pick and Place Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex02/Subchapter04_1.md) is to retrieve an archived program
 -   The [second goal](Ex02/Subchapter04_2.md) is to retrieve an archived library
@@ -13,7 +11,7 @@ Back to the [project scope](Ex02/Subchapter04.md)
 
 ## Goal 2: To retrieve an archived library
 
-The point of retrieving this archived library is that this has all the control modules and procedure elemts programmed for you. So that later when you build your S88 in TIA you can drag them from the library into your project.
+The point of retrieving this archived library is that this has all the control modules and procedure elements programmed for you. So that later when you build your S88 in TIA you can drag them from the library into your project.
 
 **Step 1:**
 

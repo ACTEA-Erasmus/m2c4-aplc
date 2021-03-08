@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Watertank Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex04/Subchapter04_1.md) is to program an ON/OFF controller
 -   The [second goal](Ex04/Subchapter04_2.md) is to program a PID controller
@@ -10,7 +8,6 @@ _____________________________________
 Back to the [project scope](Ex04/Subchapter04.md)
 
 ## Scope
-
 Automate controlling the level in **watertank T1**. that is equipped with
 - An analog level sensor
 - An analog flow sensor on the outlet

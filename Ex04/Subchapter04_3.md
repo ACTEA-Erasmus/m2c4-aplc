@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Watertank Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex04/Subchapter04_1.md) is to program an ON/OFF controller
 -   The [second goal](Ex04/Subchapter04_2.md) is to program a PID controller

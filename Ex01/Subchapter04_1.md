@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Crane Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex01/Subchapter04_1.md) is to add ProfiNET based devices
 -   The [second goal](Ex01/Subchapter04_2.md) is to add Profibus based devices

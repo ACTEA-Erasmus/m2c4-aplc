@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Watertank Project
+_____________________________________
 ## Scope
 
 Control the level in **watertank T1** that is equipped with

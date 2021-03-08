@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Pick and Place Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex02/Subchapter04_1.md) is to retrieve an archived program.
 -   The [second goal](Ex02/Subchapter04_2.md) is to retrieve an archived library
@@ -12,7 +10,6 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md)
 
 ## Goal 4: To import a external source file
-_____________________________________
 
 **Step 1:** Download/copy FB-P_PickAndPlace.scl and place it under
 

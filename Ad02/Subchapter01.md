@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # TAG naming convention
+_____________________________________
 ## General
 The use of a naming convention is used to increase the readability of the software.
 TAG and block names are constructed with capital and small letters where
@@ -114,7 +112,7 @@ The use of the type name is only used by flags if there is a connection to a sen
 | Sys | Only in the case of system memory bits/byte |
 |  | No abbreviation with flags if there is no relation to a sensor or actuator |
 
-## Function
+### Function
 The function gives information about the function of the TAG. The next table shows different kind of options where it is allowed to combine multiple functions.
 
 | Function| Description | Function| Description |

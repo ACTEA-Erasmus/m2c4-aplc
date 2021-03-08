@@ -3,9 +3,9 @@
 _____________________________________
 # Study material
 ## Literature
-- Addendum 2: TAG naming convention
-- Addendum 04 : GRAFCET
-- [Introduction to Flowchart](Ex03/Subchapter04.md)
+- Subchapter "Flowchart"
+- Addendum 2 : TAG naming convention
+- Addendum 4 : GRAFCET
 
 ## Equipment
 

@@ -1,7 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # The Crane Project
+_____________________________________
 ## Overview
 -   The [first goal](Ex01/Subchapter04_1.md) is to add ProfiNET based devices
 -   The [second goal](Ex01/Subchapter04_2.md) is to add Profibus based devices
@@ -9,7 +7,7 @@ _____________________________________
 
 Back to the [project scope](Ex01/Subchapter04.md)
 
-# Goal 3: to add Drives
+## Goal 3: to add Drives
 
 **Step 1:** Search for the correct GSD file for the following device:
 ```javascript
