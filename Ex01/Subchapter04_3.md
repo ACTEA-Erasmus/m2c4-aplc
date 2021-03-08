@@ -3,11 +3,11 @@
 _____________________________________
 # The Crane Project
 ## Overview
--   The [first goal](Ex01/Subchapter03.md) is to add ProfiNET based devices
--   The [second goal](Ex01/Subchapter04.md) is to add Profibus based devices
--   The [third goal](Ex01/Subchapter05.md) is to add Drives
+-   The [first goal](Ex01/Subchapter04_1.md) is to add ProfiNET based devices
+-   The [second goal](Ex01/Subchapter04_2.md) is to add Profibus based devices
+-   The [third goal](Ex01/Subchapter04_3.md) is to add Drives
 
-Back to the [project scope](Ex01/Subchapter03.md)
+Back to the [project scope](Ex01/Subchapter04.md)
 
 # Goal 3: to add Drives
 
