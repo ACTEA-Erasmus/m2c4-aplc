@@ -41,4 +41,4 @@
   * [Valves](Ad06/Subchapter04.md)
   * [Equipments & procedures](Ad06/Subchapter05.md)
 
-![Erasmus](/Logo_Erasmus_small.png)
+![Erasmus](./Logo_Erasmus_small.png)
