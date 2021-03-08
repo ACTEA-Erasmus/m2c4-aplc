@@ -1,8 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # Changin screens and objects
+_____________________________________
 ## Screens
 After successful compilation, you want to design the first screen for the visualization. To do this, open the > "Root" screen with a double-click:
 
@@ -17,7 +14,6 @@ These contain the most commonly used objects, elements and controls used in a HM
 ![TIA Portal Adding HMI](../Ad03/Images/Step18.jpg)
 
 ### Basic objects
-
 The basic objects contain a text box, rectangle, circle, line, ellipse and a graphic view.
 These are added by simply dragging them onto on the screen or selecting one in the toolbox section and clicking on the desired screen. To customise them further you'll have to click on the properties of the object. For example a rectangle, in the properties you can change the appearance, layout and miscelaneous.
 
@@ -39,7 +35,6 @@ In the properties of this I/O field you can assign a Tag from the HMI or PLC to 
 You can also change the type of I/O field by changing it to input or output only. Input only will only show input values. Output only will only allow a measured value to be displayed and NOT changed.
 
 ## Events
-
 Each object or element can have events. These can change values, screens on the HMI, calculations scripts etc.. For an example we'll use a button to make it behave like a Start button.
 
 ![TIA Portal Adding HMI](../Ad03/Images/Step23.jpg)
@@ -50,11 +45,8 @@ To assign a function to the button you click on "Properties" > "Events" > "Click
 
 Select "Edit bits", in here there are several options of changing a bit. For a start button the most common function is "SetBitWhileKeyPressed", this will set the asigned bit to 1 while you press the button. If you release the button the bit value will be set to 0 again.
 
-
 ## Animations
-
 ### Display
-
 Within the properties screen you can find the tab "Animations". After which you get the option to add either a **Display** or **Movements**. In this chapter i'll explain the **Display**.
 
 ![TIA Portal Adding HMI](../Ad03/Images/Step25.jpg)
@@ -62,7 +54,6 @@ Within the properties screen you can find the tab "Animations". After which you 
 Within a display you can have a "Appearance" or "Visibility" animation. The appearance will give you the ability to change the colours of a object depending on a tag value. Visibility will give you the option to hide the object depending on a tag value.
 
 ### Movements
-
 Within **movements** there are 4 different movements, direct movement, diagonal movement, horizontal movement and vertical movement. Direct movement will allow you to move a object from point A to B in a direct way. Diagonal movement will move from point A to B diagonally. Horizontal movement will move from point A to B horizontaly. Vertical movement will move from point A to B vertically.
 
 Horizontal and vertical movement can be assigned to a tag value so that depending on that value the object will move towards one point. For example:

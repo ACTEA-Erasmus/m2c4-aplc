@@ -1,9 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # HMI programming in Siemens TIA Portal
+_____________________________________
 ## Introduction
-
 Due to production processes are becoming more and more complex and requirements for machine and plant functionality are increasing, operators need a powerful tool for controlling and monitoring production plants.
 
 ![HMI](../Ad03/Images/hmi.jpg)
@@ -11,7 +8,6 @@ Due to production processes are becoming more and more complex and requirements 
 An HMI system (**h**uman-**m**achine **i**nterface) represents the interface between man (operator) and process (machine/plant). It is the controller that actually controls the process. Hence, there is an interface between the operator and WinCC (at the HMI device) and an interface between WinCC and the controller.
 
 ## Device description
-
 The SIMATIC HMI Basic Panels product line features key and touch panels (operator input via keyboard and touch screen).
 
 ![HMI](../Ad03/Images/basic_hmi.jpg)
@@ -23,7 +19,6 @@ The widescreen displays are high resolution with 64,000 colors. They can be inst
 The user interface opens up a wide range of operations with improved usability through new controls and graphics. The USB interface allows you to connect a keyboard, mouse and barcode scanner and supports easy archiving of data on a USB stick.
 
 ## Hardware configuration
-
 For a HMI to be correctly used in TIA Portal V16, one will need to make the right hardware configuration. For this to be correct you will need a correct CPU configuration mentioned in Addendum 3 of the ACTEA Basic PLC programming course.
 
 To add a HMI to a current project you will have to add a new device. This can be done through the 2 views within TIA portal.

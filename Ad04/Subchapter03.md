@@ -1,9 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # GRAFCET programming in LAD/FBD using BOOL
-
+_____________________________________
 Converting a **GRAFCET design to software code** is demonstrated with the GRAFCET described in subchapter 2.
 
 The GRAFCET is programmed in the LAD or FBD programming language in the function block (%FB) with the use of STATIC parameters. STATIC parameters can remember their status without the PLC being powered on if they are configured to retain.

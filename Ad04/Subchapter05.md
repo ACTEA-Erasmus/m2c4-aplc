@@ -1,9 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # GRAFCET programming in ST
-
+_____________________________________
 Converting a **GRAFCET design to softwarecode** is demonstrated with the GRAFCET described in subchapter 2.
 
 The GRAFCET is programmed in the LAD or FBD programming language in the function block (%FB) with the use of STATIC parameters. STATIC parameters can remeber their status also without voltage if they are configured as retain. <P>

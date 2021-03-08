@@ -1,24 +1,13 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# PID controller
 _____________________________________
-
-## PID controller
-
-### Functioning
-
+## Functioning
 A PID controller is used to control processes via an analog actuator
-[Y = INT or WORD]. A PID controller consists of several sub-functions. So,
-one distinguishes:
-
+[Y = INT or WORD]. A PID controller consists of several sub-functions. So, one distinguishes:
 - P or Proportional action
-
 - I or Integrative action
-
 - D or Differentiating action
 
-
-### Compact PID controller
-
+## Compact PID controller
 The compact Siemens PID controller is limited compared to the continuous PID controller in its possibilities. Most of the parameters can be set via associated pop-up menus and can therefore only be set using a
 programming device (PC with TIA Portal).
 
@@ -31,47 +20,37 @@ correct measuring range using the screen *“Process value settings”*.
 
 ![Siemens Example](../Ad05/Images/SiemensEx6.jpg)
 
-
 The P, I and D action can be set via the screen *“PID Parameters”*. Notice that the different actions cannot be selected individually. One can only make a choice between a PID and a PI controller. Note that every action is separately correctable. For example, one can calculate the weight of the P action and the D-action can be individually adjusted to even turn off and one can assign a wait coefficient for the D action.
 
 ![Siemens Example](../Ad05/Images/SiemensEx7.jpg)
-
 
 The output can be limited just like a continue controller. This can be done in the *"Output value limits"* screen.
 
 ![Siemens Example](../Ad05/Images/SiemensEx8.jpg)
 
-
 Because of the different parameters being adjustable by using pop-up screens, the PID building block will be compacter than the continuing Siemens PID controller.
 
 ![Siemens Example](../Ad05/Images/SiemensEx9.jpg)
 
-
-### Programming example – Continue PID controller
+## Programming example – Continue PID controller
 
 In the programming example below will you find the programming of a continue PID controller.
 
 The analog pressure sensor %IW256 gets formed internally so that the following results are obtained:
-
 -   PV_NORM = (output CRP_IN) . PV_FAC + PV_OFF
-
 -   PV_NORM = (output CRP_IN) . 0,11 + 1.0
-
 -   1.0 bar = ( 0%) . 0,11 + 1.0
-
 -   12.0 bar = (100%) . 0,11 + 1.0
 
 The loop manipulated value is variable adjustable suing %MD20. This way we can adjust the loop manipulated value with changing the user program.
 
-The dead band is adjustable at 1.2 bar. In case (W - XDo/2) \< X \< (W + XDo /2)
+The dead band is adjustable at 1.2 bar.
+In case (W - XDo/2) \< X \< (W + XDo /2)
 The output of the controller doesn't change.
 
 The controller is adjustable so that:
-
 -   The P-action is activated and the gain is set to 5.2
-
 -   The I-action is activated and the reset time is set to 2 min.
-
 -   The D-action is deactivated
 
 The output is limited between 0 and 100+ (standard settings) and transformed to the peripheral output %PQW320.

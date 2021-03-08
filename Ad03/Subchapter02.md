@@ -1,9 +1,5 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # HMI wizard
-
+_____________________________________
 When you selected the correct/desired HMI you get the following screen presented:
 
 Here you need to link the HMI to the correct PLC, this is done by selecting the right PLC under Select PLC -> PLC_1

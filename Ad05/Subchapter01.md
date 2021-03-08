@@ -1,9 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Controllers
+_____________________________________
 ## Characteristics and definitions
-
 Controllers are used mainly to control continuing processes. Also non continuing can be controlled. This way a GRAFCET can run the controller as action in a determined step. We use analog sensors to control analog or digital actuators.
 
 Controllers are defined by several characteristics which are explained in the table below.
@@ -21,7 +18,6 @@ Controllers are defined by several characteristics which are explained in the ta
 | Gain        | Kr *GAIN*     | The proportional action or P-action amplifies the output in proportion to input. The magnitude is determined by the gain factor, which can be positive or negative.                                                                                              |
 | Reset time     | TI            | The integrating action ensures a constant sum of the error and keeps outputting more signals depending on how long an error exists between the measured and desired value. The integrator or I action is characterized by the time response of the integrator  |
 | Derivative time | TD            | The D action responds to the rate of change of the error. So only when creating a step will the D action give its contribution to the controller. The differentiating action or D action is characterized by the time response of the differentiator           |
-
 
 The measure difference is the difference between the loop manipulated value and the measured value.
 
