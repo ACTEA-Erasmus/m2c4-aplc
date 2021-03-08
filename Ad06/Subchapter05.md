@@ -1,8 +1,7 @@
 
 ![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
-
-# Physical part
+# Equipments & procedures
 ## Equipment modules
 
 An **equipment module** is a collection of multiple control modules and/or other equipment modules. The collection is built upon the physical relationship they have with each other.
@@ -16,9 +15,6 @@ Equipment modules are preferably programmed in "Functions", the TAG-naming gets 
 | FC_T10_EM_Level | Includes programming of the level controlling of tank T10 |
 | FC_EM_X_Axis | Includes programming of the X axis |
 
-Reamrk: The physical part contains beside equipment modules also control modules.
-
-# Procedure part
 ## Procedure
 
 A **procedure** is a strategy, think process to solve a problem. First, a strategy gets designed on paper using a certain method. Next the strategy will be translated to a software building block which we call the procedure element.

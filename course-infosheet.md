@@ -1,5 +1,3 @@
-![ACTEA_logo](/ACTEA_logo.jpg)
-
 # Advanced PLC Programming - Course infosheet
 ____________________________________________________________
 * Study load: 5 credits
@@ -21,13 +19,11 @@ ____________________________________________________________
 * Software - Real Games - Factory IO
 
 ## Learning outcomes
-The theoretical part of the course starts with the advanced TIA Portal instructions and solutions with focus on analogue signal processing and datalogging.
-
+The **theoretical part** of the course starts with the advanced TIA Portal instructions and solutions with focus on analogue signal processing and datalogging.
 It continuous with an introduction into industrial network devices on Profibus & ProfiNET with focus on HMI, IO devices, drives and PLC-PLC communication.
-
 It ends with the engineering of software where students learn to apply software analyses such as GRAFCET and FLOWCHART.
 
-The course continuous with hands-on workshops where students apply their knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an environment that simulates the work field.
+The course continuous with **hands-on workshops** where students apply their knowledge to develop engineering skills. The student learns to select automation devices, to translate software analyses to software code, to troubleshoot PLC hardware and software problems in an environment that simulates the work field.
 
 At the end of this course a student is able to analyze a complex automation problem and to work out a solution.
 
@@ -38,18 +34,20 @@ At the end of this course a student is able to analyze a complex automation prob
 
 ## Content
 ***Theory classes***
--   Analogue signal processing
--   Industrial networks
--   HMI
 -   IO devices & drives
--   Software engineering
--   Hands-off exercises
+-   ANSI/ISA 88 Software model
+-   Sequential controllers
+    - GRAFCET
+    - Flowchart
+-   Continious controllers
+    - ON-OFF controller
+    - PID controller
+-   HMI
 
 ***Workshop***
--   Industrial networks (IO Devices, PLC-PLC communication)
--   HMI
--   Automation of a continous process
--   Automation of a sequential process
+-   The crane project
+-   The pick & place project
+-   The watertanks project
 
 ## Evalution
 ***First exam chance***
