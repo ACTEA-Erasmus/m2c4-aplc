@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # GRAFCET programming in LAD/FBD using BOOL
 
 Converting a **GRAFCET design to software code** is demonstrated with the GRAFCET described in subchapter 2.

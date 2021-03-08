@@ -1,11 +1,13 @@
-# The Crane Project
+
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
+# The Crane Project
+## Overview
 -   The [first goal](Ex01/Subchapter03.md) is to add ProfiNET based devices
 -   The [second goal](Ex01/Subchapter04.md) is to add Profibus based devices
 -   The [third goal](Ex01/Subchapter05.md) is to add Drives
 
 Back to the [project scope](Ex01/Subchapter03.md)
-
 
 ## Scope
 
@@ -20,8 +22,6 @@ Make a network configuration of a crane that has the following:
 ![Crane](../Ex01/Images/Crane.jpg)
 
 ## Goal 1: To add ProfiNET based devices
-_____________________________________
-# ProfiNET
 
 **Step 1 :** Create a new TIA Portal project
 ```javascript

@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # Physical part
 ## Equipment modules
 

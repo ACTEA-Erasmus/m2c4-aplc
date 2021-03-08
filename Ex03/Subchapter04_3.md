@@ -1,14 +1,15 @@
-# The Pick and Place Project
-_____________________________________
--   The [first goal](Ex03/Subchapter03.md) is to program a GRAFCET
--   The [second goal](Ex03/Subchapter04_1.md) is to program a Flowchart
--   The [third goal](Ex03/Subchapter05.md) is to deliver a working project
 
-Back to the [project scope](Ex03/Subchapter03.md)
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+# The Pick and Place Project
+## Overview
+-   The [first goal](Ex03/Subchapter04_1.md) is to program a GRAFCET
+-   The [second goal](Ex03/Subchapter04_2.md) is to program a Flowchart
+-   The [third goal](Ex03/Subchapter04_3.md) is to deliver a working project
+
+Back to the [project scope](Ex03/Subchapter04.md)
 
 ## Goal 3: To deliver a working project
-_____________________________________
-
 
 **Step 1:** Compile the hardware with a rebuild all command
 

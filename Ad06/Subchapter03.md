@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # Asynchronous motors
 ## Asynchronous motor with set speed and one turn direction
 

@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # GRAFCET programming in ST
 
 Converting a **GRAFCET design to softwarecode** is demonstrated with the GRAFCET described in subchapter 2.

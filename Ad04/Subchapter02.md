@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # GRAFCET according IEC 60848
 ## GRAFCET diagram
 

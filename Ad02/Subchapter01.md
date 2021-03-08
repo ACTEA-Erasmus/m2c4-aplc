@@ -1,3 +1,6 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
 # TAG naming convention
 ## General
 The use of a naming convention is used to increase the readability of the software.

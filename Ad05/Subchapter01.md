@@ -1,6 +1,10 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+# Controllers
 ## Characteristics and definitions
 
-Controllers are used mainly to control continuing processes. Also non continuing can be controlled. This way a GRAFCET can run t he controller as action in a determined step. We use analog sensors to control analog or digital actuators.
+Controllers are used mainly to control continuing processes. Also non continuing can be controlled. This way a GRAFCET can run the controller as action in a determined step. We use analog sensors to control analog or digital actuators.
 
 Controllers are defined by several characteristics which are explained in the table below.
 

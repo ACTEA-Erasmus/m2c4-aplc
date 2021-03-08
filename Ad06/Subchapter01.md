@@ -1,6 +1,8 @@
-## Software model following ANSI/ISA-88
 
-### The different parts
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+# Software model following ANSI/ISA-88
+## The different parts
 
 The ANSI/ISA-88 norm or the **S88 software model** is a norm that describes how a machine/installation (batch)process can be subdivided in different parts.
 

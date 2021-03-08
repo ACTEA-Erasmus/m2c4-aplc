@@ -1,31 +1,25 @@
-# Introduction into flowchart
+
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
-# Basic Symbols used in Flowchart Designs
+# The Pick and Place Project
+## Overview
+-   The [first goal](Ex03/Subchapter04_1.md) is to program a GRAFCET
+-   The [second goal](Ex03/Subchapter04_2.md) is to program a Flowchart
+-   The [third goal](Ex03/Subchapter04_3.md) is to deliver a working project
 
-**Terminal:** The oval symbol indicates Start, Stop and Halt in a program’s logic flow. A pause/halt is generally used in a program logic under some error conditions. Terminal is the first and last symbols in the flowchart.<P>
+Back to the [project scope](Ex03/Subchapter04.md)
 
-![Oval](../Ex03/Images/oval.jpg)
+## Scope
 
-**Input/Output:** A parallelogram denotes any function of input/output type. Program instructions that take input from input devices and display output on output devices are indicated with parallelogram in a flowchart.
+Automate the process of picking up packages and placing them on a different conveyor. This will be equipped with the following:
 
-![Parallelogram](../Ex03/Images/parallel.jpg)
+- 2 digital photocells
+- 2 digital motor circuit breakers
+- 2 digital preasurised air valves
+- 2 digital contactors to control the conveyorbelt motors
+- A digital vacuum grabber
 
-**Processing:** A box represents arithmetic instructions. All arithmetic processes such as adding, subtracting, multiplication and division are indicated by action or process symbol.
+![FactoryIO scene](../Ex02/Images/FactoryIOScene.jpg)
 
-![Box](../Ex03/Images/square.jpg)
-
-**Decision:** Diamond symbol represents a decision point. Decision based operations such as yes/no question or true/false are indicated by diamond in flowchart.
-
-![Diamond](../Ex03/Images/diamond.jpg)
-
-**Case example:**
-| **Flowchart** | **TIA code** |
-| :---: | :---: |
-| ![Case example](../Ex03/Images/examplecase.jpg)  | ![Case example](../Ex03/Images/casetia.jpg)  |
-
-
-
-**If example:**
-| **Flowchart** | **TIA code** |
-| :---: | :---: |
-| ![IF example](../Ex03/Images/exampleif.jpg)  | ![IF example](../Ex03/Images/iftia.jpg)  |
+Use the buttons on the PLC to control the motor circuit breakers.
+Use the control board in FactoryIO to start and stop the machine.

@@ -1,5 +1,8 @@
-# The Pick and Place Project
+
+![ACTEA](../Logo_ACTEA_2.jpg)
 _____________________________________
+# The Pick and Place Project
+## Overview
 -   The [first goal](Ex02/Subchapter04_1.md) is to retrieve an archived program.
 -   The [second goal](Ex02/Subchapter04_2.md) is to retrieve an archived library
 -   The [third goal](Ex02/Subchapter04_3.md) is to program the S88 following the S88 design
@@ -9,7 +12,6 @@ _____________________________________
 Back to the [project scope](Ex02/Subchapter04.md)
 
 ## Goal 3: To program the S88
-_____________________________________
 
 **Step 1:** Create the necessary PLC Tags:
 ```javascript

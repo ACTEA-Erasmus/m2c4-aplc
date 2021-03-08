@@ -1,3 +1,6 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
 # HMI programming in Siemens TIA Portal V16
 ## Introduction
 

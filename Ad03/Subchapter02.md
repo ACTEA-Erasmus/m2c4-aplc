@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # HMI wizard
 
 When you selected the correct/desired HMI you get the following screen presented:

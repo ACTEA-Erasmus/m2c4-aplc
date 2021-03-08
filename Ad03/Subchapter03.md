@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # Device configuration of HMI Panel
 
 The TIA Portal now automatically changes to the Project view and displays the root screen of the visualization.

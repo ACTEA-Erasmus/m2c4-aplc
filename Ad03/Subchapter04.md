@@ -1,3 +1,7 @@
+
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+
 # Changin screens and objects
 ## Screens
 After successful compilation, you want to design the first screen for the visualization. To do this, open the > "Root" screen with a double-click:

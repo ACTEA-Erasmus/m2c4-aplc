@@ -1,10 +1,13 @@
-# The Watertank Project
-_____________________________________
--   The [first goal](Ex04/Subchapter03_1.md) is to program an ON/OFF controller
--   The [second goal](Ex04/Subchapter04.md) is to program a PID controller
--   The [third goal](Ex04/Subchapter05.md) is to deliver a working program
 
-Back to the [project scope](Ex04/Subchapter03.md)
+![ACTEA](../Logo_ACTEA_2.jpg)
+_____________________________________
+# The Watertank Project
+## Overview
+-   The [first goal](Ex04/Subchapter04_1.md) is to program an ON/OFF controller
+-   The [second goal](Ex04/Subchapter04_2.md) is to program a PID controller
+-   The [third goal](Ex04/Subchapter04_3.md) is to deliver a working program
+
+Back to the [project scope](Ex04/Subchapter04.md)
 
 ## Goal 1: To program an ON/OFF controller
 _____________________________________
