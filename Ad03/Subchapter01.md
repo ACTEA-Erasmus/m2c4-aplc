@@ -1,4 +1,4 @@
-# HMI programming in Siemens TIA Portal
+# HMI programming
 _____________________________________
 ## Introduction
 Due to production processes are becoming more and more complex and requirements for machine and plant functionality are increasing, operators need a powerful tool for controlling and monitoring production plants.

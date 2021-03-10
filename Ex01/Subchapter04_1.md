@@ -28,7 +28,7 @@ IP-address                    : 192.168.0.30
 IP-address subnet mask        : 255.255.255.0
 ```
 
-**Step 3:** Search for the correct GSD files for the following devices:
+**Step 3:** Download the GSD files for the following devices:
 ```javascript
 Beckhoff CX8093 island (IO on bridge)
 -	3x digital sensor (grabber open, rabber closed, grabber on top)
@@ -39,7 +39,7 @@ Siemens ET200S island 1  (pumps)
 -	2x analog measurement (level and temperature)
 -	1x digital levelmeasurement (overflow)
 ```
-*If there is no internet available the required GSD files are included in the Documents.*
+
 **Overview of IP adresses and devices**
 ![Networkview](../Ex01/Images/Networkview.jpg)
 

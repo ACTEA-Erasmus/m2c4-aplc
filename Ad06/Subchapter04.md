@@ -1,9 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# Other actuators
 _____________________________________
-
 ## Valves
-
 A valve is used to power compressed air or hydraulic actuators (ex. compressed air cylinder). The combination of a valve and actuator has a specific functionality:
 - Monostable power circuit: In case there is a loss of power the actuator will automatically take its residual state (ex. single-acting compressed air cylinder)
 - Bistable power circuit: In case there is a loss of power the actuator will keep the last position (ex. double-acting compressed air cylinder)

@@ -1,9 +1,6 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
+# Software model ANSI/ISA-88
 _____________________________________
-# Software model following ANSI/ISA-88
 ## The different parts
-
 The ANSI/ISA-88 norm or the **S88 software model** is a norm that describes how a machine/installation (batch)process can be subdivided in different parts.
 
 The advantage of this is that one big problem[^1] will be divided in different smaller partial problems; smaller problems are often easier to solve than bigger problems. A strategy will be developed for each small partial problem that will cause the bigger problems to be solved one by one.
@@ -11,22 +8,15 @@ The advantage of this is that one big problem[^1] will be divided in different s
 
 [^1]: Within (process)automation this is commonly the automation of an entire machine/installation.
 The S88 software model divides a machine/installation proces in 3 big parts:
-
 -   The physical part
-
 -   The procedure part
-
 -   The recipe part
 
 ![S88 Software Design ](../Ad06/Images/S88_Softwaredesign.jpg)
 
 Because the S88 software model is very abstract and expanded we will be using a very simple form in this course:
-
-
 -   The back spine is the physical part
-
 -   The procedure part gets integrated in the physical part.
-
 -   The recipe part won't be applied
 
 This means that the software building blocks only get designed for the processing of the physic part or only the procedure part.

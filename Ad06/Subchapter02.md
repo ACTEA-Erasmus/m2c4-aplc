@@ -1,14 +1,11 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # Sensors
+_____________________________________
 ## Digital sensor
-A **digital sensor** (Ex.:limit switch, inductive sensor, capacitive sensor, tuning fork,...) processes mainly the presence of a product, object, person, etc. It has 2 conditions which indicate whether these products, objects or persons are preset or not.
+A **digital sensor** (ex.limit switch, inductive sensor, capacitive sensor, ...) processes mainly the presence of a product, object, person, etc. It has 2 conditions which indicate whether these products, objects or persons are preset or not.
 
 Functionally seen these sensors monitor:
 - The correct automatic process whether or not with the needed delay (example, opening of a door with the help of a photocell after which the door stays open for a bit)
-- The protection against defects (example, overflow protection )
+- The protection against defects (ex. overflow protection )
 
 One can design a building block wherein all the above functionalities are processed. As a Consequently, this building block is the software representative of a digital sensor.
 

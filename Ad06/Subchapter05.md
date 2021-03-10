@@ -1,11 +1,10 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
 # Equipments & procedures
+_____________________________________
 ## Equipment modules
-
 An **equipment module** is a collection of multiple control modules and/or other equipment modules. The collection is built upon the physical relationship they have with each other.
+
 In other words, an equipment module is a software building block that has a minimum of 2 building blocks of the type control modules and/or equipment modules/.
+
 Equipment modules are preferably programmed in "Functions", the TAG-naming gets expanded with the letters EM.
 
 | Examples | Description |
@@ -16,7 +15,6 @@ Equipment modules are preferably programmed in "Functions", the TAG-naming gets 
 | FC_EM_X_Axis | Includes programming of the X axis |
 
 ## Procedure
-
 A **procedure** is a strategy, think process to solve a problem. First, a strategy gets designed on paper using a certain method. Next the strategy will be translated to a software building block which we call the procedure element.
 
 The designing of a strategy can be done with the following methods:
@@ -27,7 +25,6 @@ The designing of a strategy can be done with the following methods:
   - By selecting a controller and determining the corresponding parameters in the shape of a table
 
 ## Procedure element
-
 A **procedure element** is the software translation(programming) of a procedure. A procedure drawing, scheme or table needs to be present for each procedure element. Some of these procedure elements are commonly used in machines/installations. This causes them to preferably be included into a software library. Other procedure elements get delivered by the producer of the processing unit:
 - Start-stop procedure (software library) = To start and stop actuators, machines/installations in the correct way
 - Reset procedure (software library) = To create a reset signal in the correct way
@@ -41,8 +38,7 @@ Procedure elements get preferably programmed in "Function building blocks", the 
 | FB_PE_StarStop | Start-stop procedure  |
 | FB_PE_Reset | Reset procedure  |
 
-## Start-stop procedure elements
-
+### Start-stop procedure elements
 A **start-stop procedure** is used to start or stop an actuator and/or the automatic process of a machine/installation (or parts of it). We use a classic start-stop circuit that is expanded with extra functionality.
 
 Characteristics of the start-stop procedure:
@@ -65,8 +61,7 @@ The end result is a **"Function building block"** which looks like the following
 | FDB example  | ![TIA image of control module FB_PE_StartStop ](../Ad06/Images/TIA-FB_PE_StartStop.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_StarStop ](../Ad06/Images/SimpleFB_PE_StartStop.jpg)  |
 
-## Reset procedure elements
-
+### Reset procedure elements
 The **reset procedure** gets used to create a checked reset signal. Checked because the signal coming from ex. an electrical reset button(NO-contact) can include issues like:
 - An electrical circuit of the reset button can have a short circuit (it is like the button is being pressed the entire time)
 - The reset button is electrically bridged (it is like the button is being pressed the entire time)
@@ -92,9 +87,8 @@ The end result is a **"Function building block"** which looks like the following
 | FDB example  | ![TIA image of control module FB_PE_Reset ](../Ad06/Images/TIA-FB_PE_Reset.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_Reset ](../Ad06/Images/SimpleFB_PE_Reset.jpg)  |
 
-## Two-point controller with hysteresis
-
-A **two-point controller with hysteresis** uses an on-off switch to switch an actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
+### Two-point controller with hysteresis
+A **two-point controller with hysteresis** uses an on-off controller to switch an actuator either on or off in function of a measure physical unit (= measured value x) and the desired physical unit (= setpoint W).
 
 A **two-point controller with hysteresis** is consequently an on-off circuit with extra functionality like:
 - The result of the controller (oY) is also offered inverted (oY_NOT)
@@ -112,8 +106,7 @@ The end result is a **"Function building block"** which looks like the following
 | FDB example  | ![TIA image of control module FB_PE_ON-OFF ](../Ad06/Images/TIA-FB_PE_On-Off.jpg)  |
 | More simple example  | ![Simple image of control module FB_PE_ON-OFF ](../Ad06/Images/SimpleFB_PE_On-Off.jpg)  |
 
-## Specific designed procedure elements
-
+### Specific designed procedure elements
 Not all the think process can be collected with standard procedures. It's often necessary to design specific procedures and procedure elements. One of these following analysis methods gets applied to determine the strategy:
 - GRAFCET
 - Flowchart

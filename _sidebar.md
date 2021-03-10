@@ -26,15 +26,15 @@
 * Addendum 02: TAG naming convention
   * [TAG naming convention](Ad02/Subchapter01.md)
 * Addendum 03: Siemens TIA Portal
-  * [HMI programming in Siemens TIA Portal V15.1](Ad03/Subchapter01.md)
-* Addendum 04 : GRAFCET
+  * [HMI programming](Ad03/Subchapter01.md)
+* Addendum 04 GRAFCET
   * [General](Ad04/Subchapter01.md)
-* Addendum 05 : Controllers
+* Addendum 05: Controllers
   * [Characteristics and definitions](Ad05/Subchapter01.md)
   * [On-off circuit](Ad05/Subchapter02.md)
   * [PID controller](Ad05/Subchapter03.md)
   * [Controller circuit structuring](Ad05/Subchapter04.md)
-* Addendum 06 : Software model following ANSI/ISA-88
+* Addendum 06: Software model ANSI/ISA-88
   * [The different parts](Ad06/Subchapter01.md)
   * [Sensors](Ad06/Subchapter02.md)
   * [Asynchronous motors](Ad06/Subchapter03.md)

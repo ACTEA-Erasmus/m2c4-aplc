@@ -1,11 +1,7 @@
-
-![ACTEA](../Logo_ACTEA_2.jpg)
-_____________________________________
-
 # Asynchronous motors
+_____________________________________
 ## Asynchronous motor with set speed and one turn direction
-
-With the current technology an asynchronous motor that only runs forward with a set speed can't operate without:
+With the current technology an asynchronous motor that only runs forward with a fixed speed can't operate without:
 - 1x motor circuit breaker
 - 1x relay
 
