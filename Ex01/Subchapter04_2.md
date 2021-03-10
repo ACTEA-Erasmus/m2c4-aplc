@@ -14,11 +14,12 @@ Back to the [project scope](Ex01/Subchapter04.md)
 - Sick Long-range-sensor DX100
 - Sick wire-encoder ATM60
 ```
+Website to search: https://www.sick.com/
 
 **Step 2:** Link them to the PLC
 
 **Overview of the network** <P>
 
-![Networkview](../Ex01/Images/Networkprofibus.jpg)
+![Networkview](../Ex01/Images/networkprofibus.jpg)
 
 **Step 3:** Configure the imported devices to the right measurement type

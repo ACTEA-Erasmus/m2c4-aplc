@@ -4,7 +4,7 @@
   * [Learning goals](Ex01/Subchapter01.md)
   * [Study materials](Ex01/Subchapter02.md)
   * [The crane project](Ex01/Subchapter04.md)
-* Excersise 2: ANSI/ISA S88
+* Excersise 2: ANSI/ISA-88
   * [Learning goals](Ex02/Subchapter01.md)
   * [Study materials](Ex02/Subchapter02.md)
   * [The pick & place project](Ex02/Subchapter04.md)

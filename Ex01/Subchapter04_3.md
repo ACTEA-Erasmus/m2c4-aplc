@@ -18,8 +18,9 @@ Control Techniques Commander C300
 
 ![Networkview](../Ex01/Images/Networkdrive.jpg)
 
-**Step 3:** Compile the entire project and check for errors
+**Step 3:** Add some inputs and inputs into the drive (4IN words & 4OUT words). These words are necessary to create communication through status words & control words.
 
+**Step 4:** Compile the entire project and check for errors
 
 __Normal functionallity__
 - TIA compiles the project without issues
