@@ -10,6 +10,7 @@ _____________________________________
 |"*" | A **comment** clarifies the working of certain parts and is written between double quotation marks, whereby the asterisk symbol gets replaced by the description.<p><p>  __Example__: Stop a drain  pump if the level is too low. <p> ![Comments](../Ad04/Images/Comments.jpg)                               |
 
 ## Step
+
 A **step** displays a defined condition of the sequential process. A step is either **Active** or **Not Active**.
 
 On a certain moment during the sequential proces:
@@ -27,6 +28,7 @@ On a certain moment during the sequential proces:
 | ![Active Step](../Ad04/Images/Active_Step.jpg) |  In case that an **active step** needs to be displayed, this will be done by placing a point under the label.|
 
 ## Connections
+
 | **Symbol** | **Description** |
 | :---:      | :---            |
 | ![Connectionelements](../Ad04/Images/Connectionelements.jpg) | Connections are lines in the network that connect steps. |
@@ -35,6 +37,7 @@ On a certain moment during the sequential proces:
 | ![Disconnected](../Ad04/Images/Disconnect.jpg) | If a directed link has to be broken (for example for complex charts or when a chart covers several pages) the number of the destination steps and the number of the page on which it appears, shall be indicated. <p><p>__Example__: Reference to step 12 on page 2<p><p> ![Disconnected Example](../Ad04/Images/DisconnectEx.jpg)|
 
 ## Transition
+
 | **Symbol** | **Description** |
 | :---:      | :---            |
 | ![Condition](../Ad04/Images/Condition.jpg) | A transition between two steps is indicated by a horizontal line right through the connection line. <p><p> The transition-condition is active if the previous step is active. <p><p> Between 2 steps one condition is allowed. |
@@ -56,6 +59,7 @@ On a certain moment during the sequential proces:
   -	iSen2 = digital input – Sensor 2
 
 ## Action
+
 | **Symbol** | **Description** |
 | :---:      |:---             |
 | ![Action](../Ad04/Images/Action.jpg) | An **action** is assigned to a step and gets illustrated by a rectangle which is connected to that step with a horizontal line.<p><p> It is allowed to use multiple actions in the same step, if each of them have their own rectangle.<p><p> **Allowed multiple actions:** ![Action Example](../Ad04/Images/ActionEx.jpg) |
@@ -72,6 +76,7 @@ Explanation of the used symbols:
 -	sNumNOK = static variable – Amount of NOK parts
 
 ## Structures
+
 | **Symbol** | **Description**  |
 | :---:      | :-----           |
 | ![Sequence](../Ad04/Images/Sequence.jpg) |A **sequence** is a series of steps where each step contains max. one transition-condition.<p><p> The sequence is active if at least one step of the sequence is active. The sequence is inactive when all steps are inactive. |
@@ -84,6 +89,7 @@ Explanation of the used symbols:
 | ![ AND-Convergence ](../Ad04/Images/AND-Convergence.jpg) | A **AND-convergence** allows to activate parallel sequences at the same time. They will be started after a starting transition.<p><p> An startind AND-convergence is showed by means of a double line after the starting transition.<p><p> Once the parallel sequence is activated both sequences will run seperatly from each other.<p><p> An AND-convergence gets back ends if all the parallel end steps are active and the ending transition-condition is TRUE. An ending AND-convergence is showed by a double line before the ending transition. |
 
 ## Function rules
+
 The **function of a GRAFCET** is in general step by step.
 If a step is active and the transition condition(s) are met than the next step will be activated. If the next step gets activated the previous step will be deactivated immediately.
 
@@ -100,7 +106,6 @@ The next example shows a GRAFCET for the functionality of a conveyor belt. A box
 <p><p>
 
 ![ Conveyor belt ](../Ad04/Images/ConveyorBeltEx.jpg)
-
 
 The GRAFCET has the name FB_PE_BeltFwBw:
 

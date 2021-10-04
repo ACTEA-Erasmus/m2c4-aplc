@@ -10,14 +10,12 @@ A valve is used to power compressed air or hydraulic actuators (ex. compressed a
 A **control module** for a valve will be built without taking into account the already existing functions of the combination valve - actuator. The control module will work following the bistable process.
 
 **Why would you use a monostable valve and cylinder?**
-
 During the design of a machine/installation one needs to ask themselves: What can go wrong during an unexpected event? How do i take care of potential risk to a human? Following the machine guidelines, no moving part of the machine or no single object that is held by the machine can be dropped or ejected. (2006/42/EG,2006)
 
 Unexpected events like for example a fire, an accident, an earthquake, a flood, etc. can cause interruptions in the control- and/or power circuits. The interruption of these circuits can cause dangerous situations.
 
-_Example_
-
-Because of a fire in a technical room, the air compressor stopped working which has the side effect that there is no more compressed air. A robot that moves part of +/- 2 kg on highspeed is equipped with a pneumatic grabber. There is the danger that in case the compressed air falls away on the moment the robot moves at high speed, that the robot lets go of the object and basically throws away the object. This has the potential to hurt humans that work near the robot.
+**_Example_**
+_Because of a fire in a technical room, the air compressor stopped working which has the side effect that there is no more compressed air. A robot that moves part of +/- 2 kg on highspeed is equipped with a pneumatic grabber. There is the danger that in case the compressed air falls away on the moment the robot moves at high speed, that the robot lets go of the object and basically throws away the object. This has the potential to hurt humans that work near the robot._
 
 In this situation one chooses a monostable compressed air cylinder with a spring return, this will keep the grabber "grijper" to remain closed in case the compressed air falls away.
 
@@ -28,11 +26,11 @@ The functionality of this type control module:
 - The control module will only change the condition of the electromagnetic control in case this is allowed (iEnable)
 - If the hand mode is active (iModeHand) the control module ignores the think process signals (iAut_1 & iAut_0) and sends the valve (oVlv_1 & oVlv_0) commands based off the hand signals (iHand_1 & iHand_0)
 
-It is possible with the description to draft a operation scheme for the control module with the name FB_CM_Valve
+It is possible with the description to create an operation scheme for the control module with the name FB_CM_Valve
 
 ![Operationscheme for a valve ](../Ad06/Images/OperationschemeFB_CM_Vlv.jpg)
 
-The endresult is a **"Function buildblock"** which looks like the following images.
+The endresult is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
@@ -57,7 +55,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme FB_CM_Relay ](../Ad06/Images/OperationschemeFB_CM_Relay.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :---:            |
@@ -74,11 +72,11 @@ A lamp control module handles following functionalities:
 - Fast blinking of the lamp (iAut_2Hz)
 - Activating the lamp if a lamp test(= controlling the lamps on defective lamps by maintenance technicians) is being executed (iHandTest)
 
-It is possible with the description to draft an operation scheme for the control module with the name FB_CM_Lamp
+It is possible with the description to create an operation scheme for the control module with the name FB_CM_Lamp
 
 ![Operationscheme FB_CM_Lamp ](../Ad06/Images/OperationschemeFB_CM_Lamp.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :---:            |

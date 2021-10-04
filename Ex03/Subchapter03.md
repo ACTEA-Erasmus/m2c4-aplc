@@ -19,13 +19,14 @@ _____________________________________
 ![Diamond](../Ex03/Images/diamond.jpg)
 
 **Case example:**
+
 | **Flowchart** | **TIA code** |
 | :---: | :---: |
 | ![Case example](../Ex03/Images/examplecase.jpg)  | ![Case example](../Ex03/Images/casetia.jpg)  |
 
 
-
 **If example:**
+
 | **Flowchart** | **TIA code** |
 | :---: | :---: |
 | ![IF example](../Ex03/Images/exampleif.jpg)  | ![IF example](../Ex03/Images/iftia.jpg)  |

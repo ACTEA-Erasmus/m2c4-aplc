@@ -8,20 +8,20 @@ With the current technology an asynchronous motor that only runs forward with a 
 ![Object of a direct online motor ](../Ad06/Images/ObjectAsynchronousMotor.jpg)
 
 A **control module** for this type actuator is inseperable connected with a motor circuit breaker and a relay. The control module shortly does the following:
-- If the think process(iAut) asks that if the motor needs to run, the control module will let the motor run (oCon)
+- If the automated process (iAut) asks to activate the motor, the control module will let the motor run (oCon)
 - But if the motor circuit breaker (iMcb) is turned off the module won't let the motor run en it'll activate the alarm (ioAL_Mcb)
-- The motor will only start running again if the motor circuit breaker has been activated and the alarm reset has been reset(iReset)
+- The motor will only start running again if the motor circuit breaker has been activated and the alarm has been reset (iReset)
 
 One can expand the functionalities of the control module:
 - The motor will only run (oCon) if the module is enable (iEnable)
-- If manual mode is activated (iModeHand), the module will ignore the request from the think process (iAut) and runs the motor whenever the manual signals are given (iHandOn & iHandOut)
+- If the manual mode is activated (iModeHand), the module will ignore the request from the automated process (iAut) and runs the motor whenever the manual signals are given (iHandOn & iHandOut)
 - If the motor needs to run (oCon) the module can start the motor with an on delay (iTON_Time) and/or an off delay(iTOF_Time)
 
-It is possible with the description to draft an operation scheme for the control module with the name FB_CM_DOL.
+It is possible with the description to create an operation scheme for the control module with the name FB_CM_DOL.
 
 ![Operationscheme for a direct online control module ](../Ad06/Images/OperationschemeFB_CM_DOL.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text | Image |
 | :--: | :---: |
@@ -37,12 +37,12 @@ With the current technology an asynchronous motor that runs forward and backward
 ![Object of a direct online reverse motor ](../Ad06/Images/ObjectAsynchronousMotor2.jpg)
 
 A **control module** for this type of actuator is inseperably connected with a motor circuit breaker and a relay. The control module, in short does the following:
-- If the think process(iAutL) asks if the motor needs to run left, the control module will let the motor run left (oConL)
-- If the think process(iAutR) asks if the motor needs to run right, the control module will let the motor run right (oConR)
-- It is possible to run through a waiting time(iTOF_Time) if it is requested to change direction
+- If the automated process (iAutL) asks to run to the left, the control module will let the motor run left (oConL)
+- If the automated process (iAutR) asks to run to the right, the control module will let the motor run right (oConR)
+- It is possible to run through a waiting time (iTOF_Time) if it is requested to change direction
 - But if both directions are requested (left and right) the direction doesn't change and the motor will keep spinning the way it was before the request.
 - But if the motor circuit breaker (iMcb) is turned off the module won't let the motor run en it'll activate the alarm (ioAL_Mcb)
-- The motor will only start running again if the motor circuit breaker has been activated and the alarm reset has been reset(iReset)
+- The motor will only start running again if the motor circuit breaker has been activated and the alarm has been reset (iReset)
 
 One can expand the functionalities of the control module:
 - The motor will only run (oConR & oConL) if the module is enable (iEnable)
@@ -54,7 +54,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme for a direct online reverse control module ](../Ad06/Images/OperationschemeFB_CM_DOLRev.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:   | :---:  |

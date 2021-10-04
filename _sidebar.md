@@ -29,6 +29,10 @@
   * [HMI programming](Ad03/Subchapter01.md)
 * Addendum 4 GRAFCET
   * [General](Ad04/Subchapter01.md)
+  * [GRAFCET according IEC 60848](Ad04/Subchapter02.md)
+  * [GRAFCET programming in LAD/FBD using BOOL](Ad04/Subchapter03.md)
+  * [GRAFCET programming in LAD/FBD using INT](Ad04/Subchapter04.md)
+  * [GRAFCET programming in ST](Ad04/Subchapter05.md)
 * Addendum 5: Controllers
   * [Characteristics and definitions](Ad05/Subchapter01.md)
   * [On-off circuit](Ad05/Subchapter02.md)
@@ -38,7 +42,7 @@
   * [The different parts](Ad06/Subchapter01.md)
   * [Sensors](Ad06/Subchapter02.md)
   * [Asynchronous motors](Ad06/Subchapter03.md)
-  * [Valves](Ad06/Subchapter04.md)
+  * [Other actuators](Ad06/Subchapter04.md)
   * [Equipments & procedures](Ad06/Subchapter05.md)
 
 ![Erasmus](Logo_Erasmus_small.png)

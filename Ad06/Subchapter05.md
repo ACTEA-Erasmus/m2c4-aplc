@@ -35,7 +35,7 @@ Procedure elements get preferably programmed in "Function building blocks", the 
 
 | Examples | Description |
 | :---: | :---: |
-| FB_PE_StarStop | Start-stop procedure  |
+| FB_PE_StartStop | Start-stop procedure  |
 | FB_PE_Reset | Reset procedure  |
 
 ### Start-stop procedure elements
@@ -54,7 +54,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme FB_PE_StarStop ](../Ad06/Images/OperationschemeFB_PE_StartStop.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
@@ -80,7 +80,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme FB_PE_Reset ](../Ad06/Images/OperationschemeFB_PE_Reset.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |
@@ -99,7 +99,7 @@ It is possible with the description to draft an operation scheme for the control
 
 ![Operationscheme FB_PE_ON-OFF ](../Ad06/Images/OperationschemeFB_PE_TWPH.jpg)
 
-The end result is a **"Function building block"** which looks like the following images.
+The end result is a **"Function block"** which looks like the following images.
 
 | Text |Image |
 | :---:      | :----:            |

@@ -51,6 +51,7 @@ Notes on ISA/ANSI S88
 ## PLC TAGs
 ### Structure
 The name of a PLC TAG is constructed as showed in the next table.
+
 | Prefix | Physical name | _ | Type name | Function | _ | Suffix |
 | :---:  | :---:     | :---: | :---:     | :---: | :---:|:---: |
 
@@ -104,6 +105,7 @@ The use of the type name is only used by flags if there is a connection to a sen
 | Rel | Relay |
 | Sel | Selector Switch |
 | Sen | Sensor (General) |
+| Ftc | photocell |
 | Vlv | Valve |
 | Clk | Only in the case of clock memory bits/byte |
 | Ne | Only in the case of a falling edge (negative) memory bits |
@@ -139,6 +141,7 @@ The function gives information about the function of the TAG. The next table sho
 | 1Hz | Frequency 1 HZ | 2Hz | Frequency 2 Hz |
 | Ems | Emergency stop | Move | Move action |
 | Fill | Fill action | Empty | Empty action |
+| Cnt  | Count  |   |   |
 | PV | Process value | SP | Setpoint |
 | LMN | Loop manipulated value | Db | Deadband |
 | Cmd | Command | ... | ... |
